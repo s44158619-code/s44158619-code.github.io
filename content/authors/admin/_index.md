@@ -44,7 +44,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: globe
     icon_pack: fas
-    link: https://blog.naver.com/dbsdh619
+    link: https://blog.naver.com/csaicsai
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/syo_lll0

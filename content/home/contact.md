@@ -9,4 +9,4 @@ title: "Contact"
 
 📍 **Location**: 전북대학교
 
-[![전북대학교 지도](/images/map.jpg)](https://www.google.com/maps/place/전북대학교)
+[![전북대학교 지도](/images/map.jpg)](https://www.google.com/maps/place/Jeonbuk+National+University/@35.8467,127.1295,17z)

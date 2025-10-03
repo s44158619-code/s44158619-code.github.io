@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ""
-subtitle: ""
+title: "프로젝트"
+subtitle: "제가 진행한 작업 및 학습 프로젝트"
 
 content:
   # Page type to display. E.g. project.
@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
+    - name: 전체
       tag: "*"
-    - name: Machine Learning
+    - name: 기계 학습
       tag: ML
-    - name: Computer Vision
+    - name: 컴퓨터 비전
       tag: CV
-    - name: NLP
+    - name: 자연어 처리
       tag: NLP
 
 design:

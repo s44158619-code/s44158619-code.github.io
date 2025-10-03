@@ -42,15 +42,12 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
+  - icon: globe
     icon_pack: fas
-    link: "about/#contact" # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/wowchemy
+    link: https://blog.naver.com/dbsdh619
   - icon: instagram
     icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: https://instagram.com/syo_lll0
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab

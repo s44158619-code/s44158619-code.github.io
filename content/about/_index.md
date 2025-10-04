@@ -51,4 +51,5 @@ type: widget_page
 ### 📬 **연락처 (Contact)**
 
 - 📧 Email: dbsdh8619@naver.com
+- 📞 Phome: 010-4415-8619
 - 🔗 GitHub: [s44158619-code](https://github.com/s44158619-code)

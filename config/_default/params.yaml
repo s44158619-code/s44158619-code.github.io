@@ -16,10 +16,10 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ""
-    org_name: ""
-    description: "A highly-customizable Hugo blog theme powered by Wowchemy website builder."
-    twitter: "GetResearchDev"
+    local_business_type: "University Student"
+    org_name: "전북대학교"
+    description: "전북대학교 컴퓨터인공지능학부 학생 성윤오의 포트폴리오 사이트입니다. 프로젝트, 기술, 관심 분야를 소개합니다."
+    twitter: ""
   analytics:
     google_analytics: ""
     baidu_tongji: ""

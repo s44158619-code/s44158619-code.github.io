@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: "© {year} Me. This work is licensed under {license}"
+    notice: "© {year} 성윤오. All rights reserved"
     license:
       enable: true
       allow_derivatives: false
@@ -69,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: "https://github.com/<username>/<repository>"
+    url: "https://github.com/s44158619-code/s44158619-code.github.io"
     content_dir: content
     branch: main
   avatar:

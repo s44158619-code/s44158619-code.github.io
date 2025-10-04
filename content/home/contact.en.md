@@ -7,6 +7,6 @@ title: "Contact"
 
 📩 **Email**: dbsdh8619@naver.com
 
-📍 **Location**: Jeonbuk National University
+📍 **Location**: Jeonbuk National University, Jeonju, South Korea
 
-[![Jeonbuk National University Map](/images/map.jpg)](https://www.google.com/maps/place/Jeonbuk+National+University/@35.8467,127.1295,17z)
+{{< map latitude="35.8467" longitude="127.1295" zoom="15" height="300" >}}

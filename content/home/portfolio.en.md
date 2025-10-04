@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: "Projects"
-subtitle: "Some of my work and learning projects"
+title: "Project"
+subtitle: "A selection of my recent works and projects"
 
 content:
   # Page type to display. E.g. project.
@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
+    - name: "All"
       tag: "*"
-    - name: Machine Learning
+    - name: "Machine Learning"
       tag: ML
-    - name: Computer Vision
+    - name: "Computer Vision"
       tag: CV
-    - name: NLP
+    - name: "NLP"
       tag: NLP
 
 design:

@@ -1,0 +1,54 @@
+---
+title: "About"
+type: widget_page
+---
+
+## 👋 안녕하세요, 성윤오입니다!
+
+저는 **전북대학교 컴퓨터인공지능학부** 학생으로,  
+**AI**와 **자바언어** 에 흥미를 가지고 공부하고 있습니다.  
+다양한 프로젝트와 알고리즘 문제를 통해 실제 문제를 해결하는 경험을 쌓고 있으며,  
+특히 **사람과 기술이 함께 성장할 수 있는 인공지능 서비스**를 만드는 것이 목표입니다.
+
+---
+
+### 🎯 **관심 분야 (Interests)**
+
+- 🤖 인공지능(AI) / 머신러닝
+- 🤖 Java
+- 💬 데이터 기반 의사결정
+- 🧩 협업과 커뮤니케이션
+
+---
+
+### 🧠 **보유 기술 (Skills)**
+
+| 분야            | 기술                             |
+| --------------- | -------------------------------- |
+| 언어            | Java, C, C++                     |
+| AI / 데이터     | TensorFlow, Scikit-learn, Pandas |
+| 협업 / 버전관리 | Git, GitHub, GitHub Actions      |
+
+> 본 사이트는 **[HugoBlox 공식 문서](https://docs.hugoblox.com/tutorial)** 를 참고하여  
+> 직접 구성한 포트폴리오 사이트입니다.
+
+---
+
+### 📚 **경험 및 활동 (Experience)**
+
+- 대외활동 (전주 가맥축제 서포터즈 가맥지기 활동)
+- 개인 프로젝트: Java 기반 계산기
+- GitHub Pages를 이용한 웹 포트폴리오 개발
+
+---
+
+### 🧾 **이력서 다운로드**
+
+{{< icon name="download" pack="fas" >}} {{< staticref "files/resume.pdf" "newtab" >}}이력서 다운로드{{< /staticref >}}
+
+---
+
+### 📬 **연락처 (Contact)**
+
+- 📧 Email: dbsdh8619@naver.com
+- 🔗 GitHub: [s44158619-code](https://github.com/s44158619-code)

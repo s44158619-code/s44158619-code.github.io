@@ -88,10 +88,10 @@ marketing:
     description: "전북대학교 컴퓨터인공지능학부 학생 성윤오의 포트폴리오 사이트입니다. 프로젝트, 기술, 관심 분야를 소개합니다."
     twitter: ""
   analytics:
-    google_analytics: "" # GA4 ID가 있다면 여기에 입력
+    google_analytics: ""
     baidu_tongji: ""
     google_tag_manager: ""
     microsoft_clarity: ""
   verification:
-    google: "" # Google Search Console에서 받은 meta content 값 붙여넣기
+    google: ""
     baidu: ""

@@ -7,7 +7,7 @@ title: "안녕하세요 👋"
 subtitle: "저는 **성윤오**, 전북대학교 컴퓨터인공지능학부 학생입니다."
 design:
   background:
-    image: "images/hero-bg.jpg"
+    image: "hero-bg.jpg"
     image_darken: 0.45
     image_parallax: true
   text_color_light: true

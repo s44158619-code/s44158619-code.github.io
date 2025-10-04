@@ -18,15 +18,15 @@ author: admin
 #  css_class: fullscreen
 ---
 
-👋 Hello everyone! I'm **Seong Yun-Oh**, a student in the **School of Computer and Artificial Intelligence at Jeonbuk National University**.  
-I’m interested in the field of AI and currently gaining experience across multiple areas.
+👋 Hello, everyone! I'm **Seong Yun-oh**, a student majoring in **Computer and Artificial Intelligence Engineering** at **Jeonbuk National University**.  
+I’m passionate about AI and continuously gaining experience across various fields.
 
-📌 **Main Interests**:
+📌 **Main Interests:**
 
 - Java
 - Artificial Intelligence
-- Connecting and collaborating with people
+- Interacting and collaborating with people
 
-👉 Check out my <span style="color:#EF4444; font-weight:bold;">[resume](/about/)</span> and portfolio projects below 😎
+👉 Check out my <span style="color:#EF4444; font-weight:bold;">[resume](/about/)</span> and the portfolio projects below!
 
 {style="font-size: 1.2rem; background: #2563EB; background: linear-gradient(to right, #60A5FA 0%, #3B82F6 50%, #1D4ED8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}

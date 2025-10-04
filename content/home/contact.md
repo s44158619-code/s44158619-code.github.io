@@ -9,4 +9,7 @@ title: "Contact"
 
 📍 **위치**: 전북대학교
 
-{{< map latitude="35.8467" longitude="127.1295" zoom="15" height="300" >}}
+<iframe 
+  src="https://www.google.com/maps?q=전북대학교&output=embed" 
+  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>

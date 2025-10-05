@@ -2,7 +2,7 @@
 title: "좋은 글귀 모음"
 summary: "마음을 다잡아주는 문장들."
 tags: ["Life", "Quotes"]
-date: 2025-10-06
+date: 2025-10-05
 image:
   filename: "quotes.jpg"
   focal_point: "Smart"

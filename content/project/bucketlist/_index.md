@@ -2,7 +2,7 @@
 title: "나의 버킷리스트"
 summary: "앞으로 꼭 이루고 싶은 목표 목록."
 tags: ["Personal", "Goal"]
-date: 2025-10-06
+date: 2025-10-05
 image:
   filename: "bucket.jpg"
   focal_point: "Smart"

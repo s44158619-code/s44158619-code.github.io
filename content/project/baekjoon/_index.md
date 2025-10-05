@@ -2,7 +2,7 @@
 title: "백준 활동 기록"
 summary: "문제 해결 능력 향상을 위한 꾸준한 코딩 기록."
 tags: ["Coding", "Baekjoon"]
-date: 2025-10-06
+date: 2025-10-05
 image:
   filename: "baekjoon.jpg"
   focal_point: "Smart"

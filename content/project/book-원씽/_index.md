@@ -2,7 +2,7 @@
 title: "『원씽』 감상문"
 summary: "한 가지에 집중하는 삶의 중요성에 대한 생각."
 tags: ["Book", "Focus"]
-date: 2025-08-03
+date: 2025-10-05
 image:
   filename: "onething.jpg"
   focal_point: "Smart"

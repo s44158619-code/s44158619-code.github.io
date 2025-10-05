@@ -1,7 +1,7 @@
 ---
 title: "Git 자동화 스크립트"
 summary: "Shell 스크립트를 활용한 Git 커밋 및 푸시 자동화 도구"
-tags: ["Shell", "Automation", "Git"]
+tags: ["Automation"]
 date: 2025-10-05
 image:
   filename: "featured.jpg"

@@ -1,8 +1,8 @@
 ---
 title: "개인 포트폴리오 웹사이트"
 summary: "Hugo와 GitHub Pages를 활용한 정적 포트폴리오 사이트"
-tags: ["Hugo", "Web", "GitHub Pages"]
-date: 2025-10-04
+tags: ["Web"]
+date: 2025-10-05
 image:
   filename: "featured.jpg"
 links:

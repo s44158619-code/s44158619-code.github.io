@@ -18,7 +18,7 @@ cta:
   icon: folder-open
 cta_alt:
   label: "이력서 다운로드 📄"
-  url: "/static/uploads/resume.pdf"
+  url: "/static/files/resume.pdf"
   icon_pack: fas
   icon: download
 cta_note:

@@ -11,7 +11,7 @@ headless: true
 weight: 20
 
 title: "프로젝트"
-subtitle: "제가 진행한 작업 및 학습 프로젝트"
+subtitle: "제가 진행한 프로젝트, 감상문 및 개인 기록 모음"
 
 content:
   # Page type to display. E.g. project.
@@ -26,14 +26,27 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: 전체
+    - name: "전체 보기"
       tag: "*"
-    - name: 기계 학습
+    - name: "기계 학습"
       tag: ML
-    - name: 컴퓨터 비전
+    - name: '컴퓨터 비전"
       tag: CV
-    - name: 자연어 처리
+    - name: "자연어 처리"
       tag: NLP
+    - name: "역행자 감상문"
+      tag: "Book1"
+    - name: "원씽 감상문"
+      tag: "Book2"
+    - name: "나의 버킷리스트"
+      tag: "List"
+    - name: "내가 좋아하는 명언"
+      tag: "Sayings"
+    - name: "백준 활동 기록"
+      tag: "Baekjoon"
+    - name: "좋은 글귀 모음"
+      tag: "Quotes"
+      
 
 design:
   columns: "3"

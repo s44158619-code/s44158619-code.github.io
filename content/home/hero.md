@@ -23,4 +23,22 @@ cta_alt:
   icon: download
 cta_note:
   label: "Hugo + GitHub Pages 기반 포트폴리오"
+
+content:
+  slides:
+      - title: "AI & Learning"
+        image: "https://source.unsplash.com/featured/?artificial-intelligence"
+        content: "인공지능과 함께 성장하는 시대"
+      - title: "Coding & Collaboration"
+        image: "https://source.unsplash.com/featured/?teamwork,collaboration,coding"
+        content: "함께 배우고, 함께 성장하기"
+      - title: "Inspiration"
+        image: "https://source.unsplash.com/featured/?motivation"
+        content: "매일 조금씩 나아가기"
+
+design:
+  height: "500px"
+  interval: 4000
+  text_color_light: true
+  image_darken: 0.4
 ---

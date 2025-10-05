@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 성윤오
+title: 전북대 성윤오
 
 # Is this the primary user of the site?
 superuser: true

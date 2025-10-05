@@ -27,13 +27,13 @@ cta_note:
 content:
   slides:
       - title: "AI & Learning"
-        image: "https://source.unsplash.com/featured/?artificial-intelligence"
+        image: "hero1.jpg"
         content: "인공지능과 함께 성장하는 시대"
       - title: "Coding & Collaboration"
-        image: "https://source.unsplash.com/featured/?teamwork,collaboration,coding"
+        image: "hero2.jpg"
         content: "함께 배우고, 함께 성장하기"
       - title: "Inspiration"
-        image: "https://source.unsplash.com/featured/?motivation"
+        image: "hero3.jpg"
         content: "매일 조금씩 나아가기"
 
 design:

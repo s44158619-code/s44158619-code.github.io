@@ -77,7 +77,12 @@ body {
 }
 
 .home-section.wg-about-avatar {
-  padding: 0;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.home-section.wg-about-avatar strong {
+  color: #2563EB;
 }
 
 #profile .network-icon {

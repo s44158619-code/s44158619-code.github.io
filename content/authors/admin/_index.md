@@ -42,12 +42,24 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: github
+    icon-pack: fab
+    link: "https://github.com/s44158619-code"
   - icon: globe
     icon_pack: fas
     link: https://blog.naver.com/csaicsai
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/syo_lll0
+  - icon: youtube
+    icon_pack: fab
+    link: "https://www.youtube.com/@성윤오-o2j"
+  - icon: facebook
+    icon_pack: fab
+    link: "https://facebook.com/seong.yun.o.360316"
+  - icon: linkedin
+    icon_pack: fab
+    link: "https://www.linkedin.com/in/윤오-성-a4b90b388"
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab

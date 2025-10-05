@@ -1,5 +1,5 @@
 ---
-title: "소개"
+title: ""
 type: widget_page
 ---
 

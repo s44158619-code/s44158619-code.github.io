@@ -2,7 +2,7 @@
 widget: blank
 headless: true
 weight: 8
-title: "Gallery"
+title: "사진"
 subtitle: "최근에 본 인상적인 이미지"
 ---
 

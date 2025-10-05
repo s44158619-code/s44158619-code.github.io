@@ -148,3 +148,53 @@ ul.network-icon .big-icon {
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
 }
+
+.dark body {
+  color: #E5E7EB;
+  background-color: rgb(26, 32, 44);
+}
+
+.dark .article-container {
+  background-color: rgb(36, 46, 62); 
+  color: #E5E7EB;
+}
+
+.dark .article-style {
+  color: #E5E7EB;
+  line-height: 1.8;
+}
+
+.dark a {
+  color: #60A5FA;
+  text-decoration: none;
+}
+
+.dark a:hover {
+  color: #93C5FD;
+  text-decoration: underline;
+}
+
+.dark .card-simple {
+  background: rgb(36, 46, 62);
+  color: #F9FAFB;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark .card-simple:hover {
+  box-shadow: 0 8px 20px rgba(96, 165, 250, 0.3);
+  transform: translateY(-4px);
+  border: 1px solid #60A5FA;
+}
+
+.dark h1, 
+.dark h2, 
+.dark h3, 
+.dark h4 {
+  color: #F3F4F6;
+  font-weight: 600;
+}
+
+.dark .portfolio-card {
+  background-color: rgb(36, 46, 62);
+  color: #F9FAFB;
+}

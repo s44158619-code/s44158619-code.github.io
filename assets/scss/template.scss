@@ -88,6 +88,17 @@ ul.network-icon .big-icon {
   font-size: 1.5rem;
 }
 
+.network-icon a i {
+  font-size: 1.7rem;
+  color: #ffffffd9;
+  transition: all 0.2s ease;
+}
+
+.network-icon a i:hover {
+  color: #60a5fa;
+  transform: scale(1.15);
+}
+
 .dark .portrait-title h3 {
   color: rgba(255, 255, 255, 0.9);
   font-weight: bold;

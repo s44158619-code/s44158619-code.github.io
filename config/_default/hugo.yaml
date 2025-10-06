@@ -9,15 +9,15 @@ defaultContentLanguage: ko
 
 hasCJKLanguage: true
 
-languages:
-  ko:
-    languageCode: ko-KR
-    title: "성윤오 포트폴리오"
-    weight: 1
-  en:
-    languageCode: en-US
-    title: "Seong Yoonoh's Portfolio"
-    weight: 2
+# languages:
+# ko:
+# languageCode: ko-KR
+# title: "성윤오 포트폴리오"
+# weight: 1
+# en:
+# languageCode: en-US
+# title: "Seong Yoonoh's Portfolio"
+# weight: 2
 
 enableGitInfo: false
 summaryLength: 30

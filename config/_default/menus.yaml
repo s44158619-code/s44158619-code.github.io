@@ -1,42 +1,96 @@
-main:
-  - name: "홈"
-    url: "/"
-    weight: 1
+ko:
+  main:
+    - name: "홈"
+      url: "/"
+      weight: 1
 
-  - name: "소개"
-    url: "/about/"
-    weight: 2
+    - name: "소개"
+      url: "/about/"
+      weight: 2
 
-  - name: "프로젝트"
-    url: "/project/"
-    weight: 3
-    identifier: "projects"
+    - name: "프로젝트"
+      url: "/project/"
+      weight: 3
+      identifier: "projects"
 
-  - name: "연락처"
-    url: "/#contact/"
-    weight: 4
+    - name: "연락처"
+      url: "/#contact/"
+      weight: 4
 
-  - name: "자료실"
-    url: "/resources/"
-    weight: 5
-    identifier: "resources"
+    - name: "자료실"
+      url: "/resources/"
+      weight: 5
+      identifier: "resources"
 
-  - parent: "projects"
-    name: "Python"
-    url: "/tags/python/"
-    weight: 31
+    - parent: "프로젝트"
+      name: "기술적인 프로젝트"
+      url: "/tags/tech-projects/"
+      weight: 31
 
-  - parent: "projects"
-    name: "DevOps"
-    url: "/tags/devops/"
-    weight: 32
+    - parent: "프로젝트"
+      name: "글"
+      url: "/tags/writings/"
+      weight: 32
 
-  - parent: "resources"
-    name: "이력서 다운로드"
-    url: "/files/resume.pdf"
-    weight: 51
+    - parent: "프로젝트"
+      name: "리뷰"
+      url: "/tags/reviews/"
+      weight: 33
 
-  - parent: "resources"
-    name: "GitHub"
-    url: "https://github.com/s44158619-code"
-    weight: 52
+    - parent: "이력서"
+      name: "이력서 다운로드"
+      url: "/files/resume.pdf"
+      weight: 51
+
+    - parent: "이력서"
+      name: "GitHub"
+      url: "https://github.com/s44158619-code"
+      weight: 52
+en:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    - name: "About"
+      url: "/about/"
+      weight: 2
+
+    - name: "Projects"
+      url: "/project/"
+      weight: 3
+      identifier: "projects"
+
+    - name: "Contact"
+      url: "/#contact/"
+      weight: 4
+
+    - name: "Resources"
+      url: "/resources/"
+      weight: 5
+      identifier: "resources"
+
+    - parent: "projects"
+      name: "Tech Projects"
+      url: "/tags/tech-projects/"
+      weight: 31
+
+    - parent: "projects"
+      name: "Writings"
+      url: "/tags/writings/"
+      weight: 32
+
+    - parent: "projects"
+      name: "Reviews"
+      url: "/tags/reviews/"
+      weight: 33
+
+    - parent: "resources"
+      name: "Download Resume"
+      url: "/files/resume.pdf"
+      weight: 51
+
+    - parent: "resources"
+      name: "GitHub"
+      url: "https://github.com/s44158619-code"
+      weight: 52

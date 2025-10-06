@@ -108,16 +108,22 @@ extensions:
   fontawesome:
     enable: true
 
-fab:
+social:
   - icon: github
-    url: "https://github.com/s44158619-code"
+    icon_pack: fab
+    link: "https://github.com/s44158619-code"
+  - icon: youtube
+    icon_pack: fab
+    link: "https://youtube.com/"
+  - icon: facebook
+    icon_pack: fab
+    link: "https://facebook.com/"
+  - icon: blog
+    icon_pack: fas
+    link: "https://yourblog.com"
   - icon: linkedin
-    url: "https://linkedin.com/in/..."
-  - icon: instagram
-    url: "https://instagram.com/..."
+    icon_pack: fab
+    link: "https://linkedin.com/in/yourid"
   - icon: envelope
-    url: "mailto:youremail@example.com"
-  - icon: phone
-    url: "tel:+821012345678"
-  - icon: file
-    url: "/cv.pdf"
+    icon_pack: fas
+    link: "mailto:your@email.com"

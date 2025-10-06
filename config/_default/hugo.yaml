@@ -6,9 +6,7 @@ title: "성윤오 포트폴리오"
 baseURL: "https://s44158619-code.github.io/"
 
 defaultContentLanguage: ko
-
 hasCJKLanguage: true
-
 # languages:
 # ko:
 # languageCode: ko-KR
@@ -19,17 +17,17 @@ hasCJKLanguage: true
 # title: "Seong Yoonoh's Portfolio"
 # weight: 2
 
-enableGitInfo: false
-summaryLength: 30
-paginate: 10
-enableEmoji: true
-enableRobotsTXT: true
-outputs:
-  home: [HTML, RSS, JSON, WebAppManifest]
-  section: [HTML, RSS]
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    style: dracula
+# enableGitInfo: false
+# summaryLength: 30
+# paginate: 10
+# enableEmoji: true
+# enableRobotsTXT: true
+# outputs:
+#   home: [HTML, RSS, JSON, WebAppManifest]
+#   section: [HTML, RSS]
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+#   highlight:
+#     style: dracula

@@ -3,20 +3,16 @@ ko:
     - name: "홈"
       url: "/"
       weight: 1
-
     - name: "소개"
       url: "/about/"
       weight: 2
-
     - name: "프로젝트"
       url: "/project/"
       weight: 3
       identifier: "projects"
-
     - name: "연락처"
       url: "/#contact/"
       weight: 4
-
     - name: "자료실"
       url: "/resources/"
       weight: 5
@@ -26,12 +22,10 @@ ko:
       name: "기술적인 프로젝트"
       url: "/tags/tech-projects/"
       weight: 31
-
     - parent: "projects"
-      name: "글"
+      name: "생각과 기록"
       url: "/tags/writings/"
       weight: 32
-
     - parent: "projects"
       name: "리뷰"
       url: "/tags/reviews/"
@@ -41,30 +35,26 @@ ko:
       name: "이력서 다운로드"
       url: "/files/resume.pdf"
       weight: 51
-
     - parent: "resources"
       name: "GitHub"
       url: "https://github.com/s44158619-code"
       weight: 52
+
 en:
   main:
     - name: "Home"
       url: "/"
       weight: 1
-
     - name: "About"
       url: "/about/"
       weight: 2
-
     - name: "Projects"
       url: "/project/"
       weight: 3
       identifier: "projects"
-
     - name: "Contact"
       url: "/#contact/"
       weight: 4
-
     - name: "Resources"
       url: "/resources/"
       weight: 5
@@ -74,12 +64,10 @@ en:
       name: "Tech Projects"
       url: "/tags/tech-projects/"
       weight: 31
-
     - parent: "projects"
       name: "Writings"
       url: "/tags/writings/"
       weight: 32
-
     - parent: "projects"
       name: "Reviews"
       url: "/tags/reviews/"
@@ -89,7 +77,6 @@ en:
       name: "Download Resume"
       url: "/files/resume.pdf"
       weight: 51
-
     - parent: "resources"
       name: "GitHub"
       url: "https://github.com/s44158619-code"

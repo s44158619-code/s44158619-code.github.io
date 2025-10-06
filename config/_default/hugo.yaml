@@ -21,9 +21,6 @@ languages:
     title: "Seong Yoonoh's Portfolio"
     weight: 2
 
-# -------------------------------------------------
-# Hugo 고급 설정
-# -------------------------------------------------
 enableGitInfo: false
 summaryLength: 30
 paginate: 10

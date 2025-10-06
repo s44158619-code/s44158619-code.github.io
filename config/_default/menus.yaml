@@ -22,27 +22,27 @@ ko:
       weight: 5
       identifier: "resources"
 
-    - parent: "프로젝트"
+    - parent: "projects"
       name: "기술적인 프로젝트"
       url: "/tags/tech-projects/"
       weight: 31
 
-    - parent: "프로젝트"
+    - parent: "projects"
       name: "글"
       url: "/tags/writings/"
       weight: 32
 
-    - parent: "프로젝트"
+    - parent: "projects"
       name: "리뷰"
       url: "/tags/reviews/"
       weight: 33
 
-    - parent: "이력서"
+    - parent: "resources"
       name: "이력서 다운로드"
       url: "/files/resume.pdf"
       weight: 51
 
-    - parent: "이력서"
+    - parent: "resources"
       name: "GitHub"
       url: "https://github.com/s44158619-code"
       weight: 52

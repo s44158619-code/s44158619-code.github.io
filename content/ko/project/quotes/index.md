@@ -1,7 +1,7 @@
 ---
 title: "좋은 글귀 모음"
 summary: "마음을 다잡아주는 문장들."
-tags: ["Quotes"]
+tags: ["Quotes", "writings"]
 date: 2025-10-05
 image:
   filename: "quotes.jpg"

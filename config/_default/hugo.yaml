@@ -1,3 +1,7 @@
+security:
+  funcs:
+    getenv: ["^HUGO_", "^CI$", "WC_POST_CSS"]
+
 title: "성윤오 포트폴리오"
 baseURL: "https://s44158619-code.github.io/"
 
@@ -14,7 +18,7 @@ languages:
   en:
     languageCode: en-US
     contentDir: content/en
-    title: "Seong Yunoh's Portfolio"
+    title: "Seong Yoonoh's Portfolio"
     weight: 2
 
 # -------------------------------------------------

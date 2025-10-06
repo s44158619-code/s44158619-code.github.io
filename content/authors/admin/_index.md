@@ -11,20 +11,20 @@ bio: >
 social:
   - icon: github
     icon-pack: fab
-    link: "https://github.com/s44158619-code"
+    link: https://github.com/s44158619-code
   - icon: globe
     icon-pack: fas
-    link: "https://blog.naver.com/csaicsai"
+    link: https://blog.naver.com/csaicsai
   - icon: instagram
     icon-pack: fab
-    link: "https://instagram.com/syo_lll0"
+    link: https://instagram.com/syo_lll0
   - icon: youtube
     icon-pack: fab
-    link: "https://www.youtube.com/@성윤오-o2j"
+    link: https://www.youtube.com/@성윤오-o2j
   - icon: facebook
     icon-pack: fab
-    link: "https://facebook.com/seong.yun.o.360316"
+    link: https://facebook.com/seong.yun.o.360316
   - icon: linkedin
     icon-pack: fab
-    link: "https://www.linkedin.com/in/윤오-성-a4b90b388"
+    link: https://www.linkedin.com/in/윤오-성-a4b90b388
 ---

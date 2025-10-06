@@ -12,12 +12,10 @@ hasCJKLanguage: true
 languages:
   ko:
     languageCode: ko-KR
-    contentDir: content/ko
     title: "성윤오 포트폴리오"
     weight: 1
   en:
     languageCode: en-US
-    contentDir: content/en
     title: "Seong Yoonoh's Portfolio"
     weight: 2
 

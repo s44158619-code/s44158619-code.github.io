@@ -234,3 +234,16 @@ ul.network-icon .big-icon {
 .dark .hero-slide::after {
   background: rgba(0, 0, 0, 0.6);
 }
+
+.wg-about table {
+  margin: 1.2rem auto;
+  border-collapse: collapse;
+}
+
+.wg-about th, .wg-about td {
+  padding: 0.6rem 1rem;
+}
+
+.wg-about-section {
+  margin-bottom: 2rem;
+}

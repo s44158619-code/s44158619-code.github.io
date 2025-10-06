@@ -107,3 +107,17 @@ extensions:
     enable: false
   fontawesome:
     enable: true
+
+fab:
+  - icon: github
+    url: "https://github.com/s44158619-code"
+  - icon: linkedin
+    url: "https://linkedin.com/in/..."
+  - icon: instagram
+    url: "https://instagram.com/..."
+  - icon: envelope
+    url: "mailto:youremail@example.com"
+  - icon: phone
+    url: "tel:+821012345678"
+  - icon: file
+    url: "/cv.pdf"

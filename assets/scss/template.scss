@@ -1,8 +1,6 @@
-// Starter Blog Template
-// https://hugoblox.com/hugo-themes/
-
 body {
-  background-color: rgb(247, 250, 252);
+  color: #111827;
+  background-color: #f9fafb;
 }
 
 .article-container {
@@ -12,7 +10,7 @@ body {
 
 .article-style {
   line-height: 1.7;
-  color: #d3cfcf;
+  color: #333333;
 }
 
 .article-style h3 {
@@ -20,30 +18,31 @@ body {
   margin-bottom: 0.6rem;
 }
 
-
 .dark .article-container {
-  background-color: rgb(31, 39, 51);
+  background-color: #1f2733;
+  color: #e5e7eb;
 }
 
-// custom footer color
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: #f9fafb;
 }
 
 .dark .page-footer {
-  background-color: rgb(26, 32, 44);
+  background-color: #1a202c;
 }
 
-// more rounded cards and larger gap between cards
 .card-simple {
   margin-top: 2.2rem;
-  border-radius: 15px;
-  padding: 1.2rem 1rem;
+  border-radius: 12px;
+  padding: 1.2rem;
   min-height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.2s ease-in-out;
 }
 
 .card-simple img {
@@ -55,23 +54,26 @@ body {
 }
 
 .card-simple:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(37,99,235,0.25);
-  border: 1px solid #2563EB;
-  transition: all 0.3s ease-in-out;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
-
 
 .dark .card-simple {
-  background: rgb(31, 39, 51);
+  background: #242e3e;
+  color: #f9fafb;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-// no navbar shadow
+.dark .card-simple:hover {
+  box-shadow: 0 8px 20px rgba(96, 165, 250, 0.3);
+  transform: translateY(-4px);
+  border: 1px solid #60a5fa;
+}
+
 .navbar {
-  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  box-shadow: none !important;
 }
 
-// custom section padding
 .home-section {
   padding: 2rem 0;
 }
@@ -90,12 +92,12 @@ ul.network-icon .big-icon {
 
 .network-icon a i {
   font-size: 1.7rem;
-  color: #ffffffd9;
+  color: #374151;
   transition: all 0.2s ease;
 }
 
 .network-icon a i:hover {
-  color: #60a5fa;
+  color: #2563eb;
   transform: scale(1.15);
 }
 
@@ -123,7 +125,6 @@ ul.network-icon .big-icon {
   margin-bottom: 1em;
 }
 
-// Narrower container for Hello World sections (primarily Blank widget content).
 @media (min-width: 1200px) {
   .home-section .container {
     max-width: 880px;
@@ -135,7 +136,6 @@ ul.network-icon .big-icon {
   }
 }
 
-// Custom avatar size on homepage
 .avatar {
   width: auto;
   height: auto;
@@ -143,7 +143,6 @@ ul.network-icon .big-icon {
   max-height: 225px;
 }
 
-// Prevent stretching on About page with narrow container
 .wg-about .avatar {
   width: auto;
   height: auto;
@@ -151,7 +150,6 @@ ul.network-icon .big-icon {
   max-height: 200px;
 }
 
-// Smaller Name and Role text on About page than in homepage `about.avatar` widget
 .wg-about .portrait-title h2 {
   font-size: 1rem;
 }
@@ -161,53 +159,44 @@ ul.network-icon .big-icon {
 }
 
 .dark body {
-  color: #E5E7EB;
-  background-color: rgb(26, 32, 44);
-}
-
-.dark .article-container {
-  background-color: rgb(36, 46, 62); 
-  color: #E5E7EB;
+  color: #e5e7eb;
+  background-color: #1a202c;
 }
 
 .dark .article-style {
-  color: #E5E7EB;
+  color: #e5e7eb;
   line-height: 1.8;
 }
 
-.dark a {
-  color: #60A5FA;
+a {
+  color: #2563eb;
   text-decoration: none;
 }
 
-.dark a:hover {
-  color: #93C5FD;
+a:hover {
+  color: #1d4ed8;
   text-decoration: underline;
 }
 
-.dark .card-simple {
-  background: rgb(36, 46, 62);
-  color: #F9FAFB;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+.dark a {
+  color: #60a5fa;
 }
 
-.dark .card-simple:hover {
-  box-shadow: 0 8px 20px rgba(96, 165, 250, 0.3);
-  transform: translateY(-4px);
-  border: 1px solid #60A5FA;
+.dark a:hover {
+  color: #93c5fd;
 }
 
 .dark h1, 
 .dark h2, 
 .dark h3, 
 .dark h4 {
-  color: #F3F4F6;
+  color: #f3f4f6;
   font-weight: 600;
 }
 
 .dark .portfolio-card {
-  background-color: rgb(36, 46, 62);
-  color: #F9FAFB;
+  background-color: #242e3e;
+  color: #f9fafb;
 }
 
 .hero-slider {

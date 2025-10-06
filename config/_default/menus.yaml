@@ -1,42 +1,41 @@
-ko:
-  main:
-    - name: "홈"
-      url: "/"
-      weight: 1
-    - name: "소개"
-      url: "/about/"
-      weight: 2
-    - name: "프로젝트"
-      url: "/project/"
-      weight: 3
-      identifier: "projects"
-    - name: "연락처"
-      url: "/#contact/"
-      weight: 4
-    - name: "자료실"
-      url: "/resources/"
-      weight: 5
-      identifier: "resources"
-    - parent: "projects"
-      name: "기술적인 프로젝트"
-      url: "/tags/tech-projects/"
-      weight: 31
-    - parent: "projects"
-      name: "생각과 기록"
-      url: "/tags/writings/"
-      weight: 32
-    - parent: "projects"
-      name: "리뷰"
-      url: "/tags/reviews/"
-      weight: 33
-    - parent: "resources"
-      name: "이력서 다운로드"
-      url: "/files/resume.pdf"
-      weight: 51
-    - parent: "resources"
-      name: "GitHub"
-      url: "https://github.com/s44158619-code"
-      weight: 52
+main:
+  - name: "홈"
+    url: "/"
+    weight: 1
+  - name: "소개"
+    url: "/about/"
+    weight: 2
+  - name: "프로젝트"
+    url: "/project/"
+    weight: 3
+    identifier: "projects"
+  - name: "연락처"
+    url: "/#contact/"
+    weight: 4
+  - name: "자료실"
+    url: "/resources/"
+    weight: 5
+    identifier: "resources"
+  - parent: "projects"
+    name: "기술적인 프로젝트"
+    url: "/tags/tech-projects/"
+    weight: 31
+  - parent: "projects"
+    name: "생각과 기록"
+    url: "/tags/writings/"
+    weight: 32
+  - parent: "projects"
+    name: "리뷰"
+    url: "/tags/reviews/"
+    weight: 33
+  - parent: "resources"
+    name: "이력서 다운로드"
+    url: "/files/resume.pdf"
+    weight: 51
+  - parent: "resources"
+    name: "GitHub"
+    url: "https://github.com/s44158619-code"
+    weight: 52
 # en:
 #   main:
 #     - name: "Home"

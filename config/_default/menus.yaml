@@ -17,7 +17,6 @@ ko:
       url: "/resources/"
       weight: 5
       identifier: "resources"
-
     - parent: "projects"
       name: "기술적인 프로젝트"
       url: "/tags/tech-projects/"
@@ -30,7 +29,6 @@ ko:
       name: "리뷰"
       url: "/tags/reviews/"
       weight: 33
-
     - parent: "resources"
       name: "이력서 다운로드"
       url: "/files/resume.pdf"
@@ -39,7 +37,6 @@ ko:
       name: "GitHub"
       url: "https://github.com/s44158619-code"
       weight: 52
-
 en:
   main:
     - name: "Home"
@@ -59,7 +56,6 @@ en:
       url: "/resources/"
       weight: 5
       identifier: "resources"
-
     - parent: "projects"
       name: "Tech Projects"
       url: "/tags/tech-projects/"
@@ -72,7 +68,6 @@ en:
       name: "Reviews"
       url: "/tags/reviews/"
       weight: 33
-
     - parent: "resources"
       name: "Download Resume"
       url: "/files/resume.pdf"

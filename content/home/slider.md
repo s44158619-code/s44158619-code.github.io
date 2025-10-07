@@ -1,20 +1,21 @@
 ---
 widget: slider
 headless: true
-weight: 8
+weight: 10
+
 title: "사진"
-subtitle: "최근에 본 인상적인 이미지"
+
 slides:
   - title: "AI"
     content: "인공지능 관련 이미지"
     background:
-      image: "media/hero1.jpg"
+      image: "static/image/media/hero1.jpg"
   - title: "Coding"
     content: "코딩 관련 이미지"
     background:
-      image: "media/hero2.jpg"
+      image: "static/image/media/hero2.jpg"
   - title: "Motivation"
     content: "동기부여 이미지"
     background:
-      image: "media/hero3.jpg"
+      image: "static/image/media/hero3.jpg"
 ---

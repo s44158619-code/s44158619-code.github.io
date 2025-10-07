@@ -28,9 +28,9 @@ social:
   - icon: instagram
     icon_pack: fab
     link: "https://instagram.com/syo_lll0"
-  - icon: envelope
+  - icon: blog
     icon_pack: fas
-    link: "mailto:dbsdh8619@naver.com"
+    link: "https://blog.naver.com/csaicsai"
 ---
 
 👋 안녕하세요! 저는 **성윤오**, 전북대학교 컴퓨터인공지능학부에 재학 중입니다.  

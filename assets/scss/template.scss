@@ -271,23 +271,12 @@ a:hover {
 }
 
 .home-section .widget-slider {
-  min-height: 400px;  /* 원하는 높이 */
-}
-
-.home-section .widget-slider .carousel-item,
-.home-section .widget-slider .slide {
   min-height: 420px;
-  background-size: cover;
-  background-position: center;
 }
 
-.home-section .widget-slider,
 .home-section .widget-slider .slide,
 .home-section .widget-slider .carousel-item {
   min-height: 420px;
-}
-
-.home-section .widget-slider .slide {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }

@@ -18,19 +18,19 @@ social:
     link: "https://github.com/s44158619-code"
   - icon: linkedin
     icon_pack: fab
-    link: "https://linkedin.com/in/your-profile"
+    link: "https://linkedin.com/in/윤오-성-a4b90b388"
   - icon: facebook
     icon_pack: fab
-    link: "https://facebook.com/yourprofile"
+    link: "https://facebook.com/seong.yun.o.360316"
   - icon: youtube
     icon_pack: fab
-    link: "https://youtube.com/@yourchannel"
+    link: "https://youtube.com/@성윤오-o2j"
   - icon: instagram
     icon_pack: fab
-    link: "https://instagram.com/yourprofile"
+    link: "https://instagram.com/syo_lll0"
   - icon: envelope
     icon_pack: fas
-    link: "mailto:yourmail@example.com"
+    link: "mailto:dbsdh8619@naver.com"
 ---
 
 👋 안녕하세요! 저는 **성윤오**, 전북대학교 컴퓨터인공지능학부에 재학 중입니다.  

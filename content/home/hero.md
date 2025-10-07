@@ -8,11 +8,8 @@ subtitle: "저는 **성윤오**, 전북대학교 컴퓨터인공지능학부 학
 
 design:
   height: "500px"
-  interval: 4000
-  background:
-    # image: "hero-bg.jpg"
-    image_darken: 0.45
-    image_parallax: true
+  image_darken: 0.45
+  image_parallax: true
   text_color_light: true
 
 cta:

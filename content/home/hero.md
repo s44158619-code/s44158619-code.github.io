@@ -22,7 +22,7 @@ design:
   height: "500px"
   interval: 4000
   background:
-    image: "hero-bg.jpg"
+    # image: "hero-bg.jpg"
     image_darken: 0.45
     image_parallax: true
   text_color_light: true

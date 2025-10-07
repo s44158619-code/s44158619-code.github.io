@@ -1,8 +1,13 @@
 ---
 widget: slider
 headless: true
-weight: 10
+weight: 80
 title: "사진"
+
+design:
+  height: "420px"
+  interval: 4000
+  autoplay: true
 
 content:
   slides:

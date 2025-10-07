@@ -274,7 +274,9 @@ a:hover {
   min-height: 400px;  /* 원하는 높이 */
 }
 
+.home-section .widget-slider .carousel-item,
 .home-section .widget-slider .slide {
+  min-height: 420px;
   background-size: cover;
   background-position: center;
 }

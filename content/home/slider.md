@@ -11,7 +11,7 @@ content:
       align: center
       background:
         image: "media/slider1.jpg"
-    - title: "Coding"
+    - title: "Collaboration"
       content: "합동 관련 이미지"
       align: center
       background:

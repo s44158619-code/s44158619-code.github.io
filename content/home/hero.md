@@ -9,13 +9,13 @@ subtitle: "저는 **성윤오**, 전북대학교 컴퓨터인공지능학부 학
 content:
   slides:
     - title: "AI & Learning"
-      image: "hero1.jpg"
+      image: "slider1.jpg"
       content: "인공지능과 함께 성장하는 시대"
     - title: "Coding & Collaboration"
-      image: "hero2.jpg"
+      image: "slider2.jpg"
       content: "함께 배우고, 함께 성장하기"
     - title: "Inspiration"
-      image: "hero3.jpg"
+      image: "slider3.jpg"
       content: "매일 조금씩 나아가기"
 
 design:

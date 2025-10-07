@@ -1,10 +1,3 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
-
 appearance:
   theme_day: custom
   theme_night: custom
@@ -12,7 +5,6 @@ appearance:
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
@@ -28,8 +20,6 @@ marketing:
   verification:
     google: "Izntv3d_scj_G8AIcXk-C7GL_sR0d3-ODgDyhxiZuOc"
     baidu: ""
-
-# Site header
 
 header:
   navbar:
@@ -50,13 +40,9 @@ footer:
       share_alike: true
       allow_commercial: false
 
-# Localization
-
 locale:
   date_format: "Jan 2, 2006"
   time_format: "3:04 PM"
-
-# Site features
 
 features:
   syntax_highlighter:

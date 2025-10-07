@@ -6,23 +6,11 @@ weight: 5
 title: "안녕하세요 👋"
 subtitle: "저는 **성윤오**, 전북대학교 컴퓨터인공지능학부 학생입니다."
 
-content:
-  slides:
-    - title: "AI & Learning"
-      image: "images/media/slider1.jpg"
-      content: "인공지능과 함께 성장하는 시대"
-    - title: "Coding & Collaboration"
-      image: "images/media/slider2.jpg"
-      content: "함께 배우고, 함께 성장하기"
-    - title: "Inspiration"
-      image: "slider3.jpg"
-      content: "images/media/slider3.jpg"
-
 design:
   height: "500px"
   interval: 4000
   background:
-    # image: "hero-bg.jpg"
+    image: "hero-bg.jpg"
     image_darken: 0.45
     image_parallax: true
   text_color_light: true

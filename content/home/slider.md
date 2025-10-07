@@ -9,17 +9,23 @@ content:
     - title: "AI"
       content: "인공지능 관련 이미지"
       align: center
-      image: "slider1.jpg"
+      background:
+        image: "slider1.jpg"
+        image_darken: 0.0
 
     - title: "Collaboration"
       content: "협업 관련 이미지"
       align: center
-      image: "slider2.jpg"
+      background:
+        image: "slider3.jpg"
+        image_darken: 0.0
 
     - title: "Motivation"
       content: "영감 관련 이미지"
       align: center
-      image: "slider3.jpg"
+      background:
+        image: "slider3.jpg"
+        image_darken: 0.0
 
 design:
   slide_height: "420px"

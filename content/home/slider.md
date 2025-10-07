@@ -8,6 +8,7 @@ design:
   height: "420px"
   interval: 4000
   autoplay: true
+  image_darken: 0.0
 
 content:
   slides:

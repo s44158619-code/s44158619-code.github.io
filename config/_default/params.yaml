@@ -116,6 +116,6 @@ social:
 
 branding:
   logo:
-    light: "logo-light.png"
-    dark: "logo-dark.png"
+    light: "media/logo-light.png"
+    dark: "media/logo-dark.png"
   logo_width: 180

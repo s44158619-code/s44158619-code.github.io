@@ -115,8 +115,9 @@ social:
     icon_pack: fas
     link: "https://blog.naver.com/csaicsai"
 
-branding:
-  logo:
-    light: "media/logo-light.png"
-    dark: "media/logo-dark.png"
-  logo_width: 180
+params:
+  branding:
+    logo:
+      light: "media/logo-light.png"
+      dark: "media/logo-dark.png"
+    logo_width: 180

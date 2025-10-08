@@ -11,7 +11,7 @@ content:
       content: "인공지능 관련 이미지"
       align: center
       background:
-        media: "slider1.jpg"
+        media: "slide/slider1.jpg"
         brightness: 0.6
         position: center
         fit: cover
@@ -20,7 +20,7 @@ content:
       content: "협업 관련 이미지"
       align: center
       background:
-        media: "slider2.jpg"
+        media: "slide/slider2.jpg"
         brightness: 0.6
         position: center
         fit: cover
@@ -29,7 +29,7 @@ content:
       content: "영감 관련 이미지"
       align: center
       background:
-        media: "slider3.jpg"
+        media: "slide/slider3.jpg"
         brightness: 0.6
         position: center
         fit: cover

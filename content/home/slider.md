@@ -1,6 +1,7 @@
 ---
 widget: slider
 headless: true
+active: true
 weight: 90
 title: ""
 
@@ -10,7 +11,7 @@ content:
       content: "인공지능 관련 이미지"
       align: center
       background:
-        image: "slider1.jpg"
+        media: "slider1.jpg"
         brightness: 0.6
         position: center
         fit: cover
@@ -19,7 +20,7 @@ content:
       content: "협업 관련 이미지"
       align: center
       background:
-        image: "slider2.jpg"
+        media: "slider2.jpg"
         brightness: 0.6
         position: center
         fit: cover
@@ -28,7 +29,7 @@ content:
       content: "영감 관련 이미지"
       align: center
       background:
-        image: "slider3.jpg"
+        media: "slider3.jpg"
         brightness: 0.6
         position: center
         fit: cover

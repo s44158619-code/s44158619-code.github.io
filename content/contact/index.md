@@ -26,4 +26,10 @@ sections:
 
     design:
       columns: "2"
+
+features:
+  map:
+    provider: "mapnik"
+    api_key: ""
+    zoom: 16
 ---

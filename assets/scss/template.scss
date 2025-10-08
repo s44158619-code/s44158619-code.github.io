@@ -270,21 +270,9 @@ a:hover {
   color: #fff !important;
 }
 
-.home-section .widget-slider {
-  min-height: 420px;
-}
-
-.home-section .widget-slider .slide,
-.home-section .widget-slider .carousel-item {
-  min-height: 420px;
-  background-size: cover;
-  background-position: center;
-}
-
-.home-section .widget-slider {
-  min-height: 420px;
-}
-.home-section .widget-slider .slide {
-  background-size: cover;
-  background-position: center;
+.home-section .widget-slider { min-height: 420px; }
+.home-section .widget-slider .slide { 
+  min-height: 420px; 
+  background-size: cover; 
+  background-position: center; 
 }

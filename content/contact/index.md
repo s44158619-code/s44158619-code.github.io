@@ -1,25 +1,35 @@
 ---
 title: "연락처"
-type: page
+date: 2025-10-08
+type: landing
+
+sections:
+  - block: contact
+    content:
+      title: Contact
+      text: |-
+        전북대학교 공과대학 7호관에 주로 있습니다.<br>
+        편하게 아래 이메일 혹은 전화번호로 연락 주세요.
+      email: dbsdh8619@naver.com
+      phone: +82-10-4415-8619
+      address:
+        street: 전북대학교 공과대학 7호관
+        city: 전주시 덕진구
+        region: 전라북도
+        country: 대한민국
+        country_code: KR
+      coordinates:
+        latitude: "35.845169"
+        longitude: "127.124594"
+      directions: ""
+      autolink: true
+
+    design:
+      columns: "2"
+
+features:
+  map:
+    provider: "mapnik"
+    api_key: ""
+    zoom: 16
 ---
-
-## 📬 **Contact Me**
-
-프로젝트나 협업 문의, 또는 궁금한 점이 있다면 언제든지 연락 주세요 😊
-
-- 📧 **Email:** [dbsdh8619@naver.com](mailto:dbsdh8619@naver.com)
-- 📞 **Phone:** [010-4415-8619](tel:01044158619)
-- 🔗 **GitHub:** [s44158619-code](https://github.com/s44158619-code)
-- 🏫 **Location:** 전북대학교 전주캠퍼스
-- 🌏 **Blog:** [네이버 블로그](https://blog.naver.com/csaicsai)
-
----
-
-### 📍 **지도 보기**
-
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.938...전북대캠퍼스좌표..." 
-  width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-</iframe>
-
-width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

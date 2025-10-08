@@ -14,7 +14,7 @@ content:
 
 features:
   map:
-    provider: "mapnik" # 또는 'google'
-    api_key: "" # 구글이면 API Key 필요, mapnik은 빈 값으로도 가능
-    zoom: 15
+    provider: "mapnik"
+    api_key: ""
+    zoom: 17
 ---

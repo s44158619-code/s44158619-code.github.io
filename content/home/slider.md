@@ -1,8 +1,8 @@
 ---
 widget: slider
 headless: true
-weight: 80
-title: "사진"
+weight: 90
+title: ""
 
 content:
   slides:
@@ -11,23 +11,30 @@ content:
       align: center
       background:
         image: "slider1.jpg"
-        image_darken: 0.4
+        brightness: 0.6
+        position: center
+        fit: cover
 
     - title: "Collaboration"
       content: "협업 관련 이미지"
       align: center
       background:
-        image: "slider3.jpg"
-        image_darken: 0.4
+        image: "slider2.jpg"
+        brightness: 0.6
+        position: center
+        fit: cover
 
     - title: "Motivation"
       content: "영감 관련 이미지"
       align: center
       background:
         image: "slider3.jpg"
-        image_darken: 0.4
+        brightness: 0.6
+        position: center
+        fit: cover
 
 design:
   slide_height: "420px"
   interval: 4000
+  is_fullscreen: false
 ---

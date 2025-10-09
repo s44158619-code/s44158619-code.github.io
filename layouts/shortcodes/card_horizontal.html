@@ -1,6 +1,8 @@
 <div class="card-horizontal">
-  <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}">
-  <div class="content">
+  <div class="card-image">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}">
+  </div>
+  <div class="card-content">
     <h3>{{ .Get "title" }}</h3>
     <p>{{ .Get "desc" }}</p>
   </div>

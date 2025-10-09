@@ -93,12 +93,12 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
   fontawesome:
     enable: true
 
 images:
-  - "/media/icon.png"
+  - "icon.png"
 
 social:
   - icon: github

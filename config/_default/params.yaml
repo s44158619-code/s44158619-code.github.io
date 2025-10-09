@@ -34,12 +34,6 @@ header:
     show_search: true
     highlight_active_link: false
 
-branding:
-  logo:
-    light: "media/logo-light.png"
-    dark: "media/logo-dark.png"
-  logo_width: 180
-
 footer:
   copyright:
     notice: "© {year} 성윤오 (Yoonoh Seong). This work is licensed under {license}"

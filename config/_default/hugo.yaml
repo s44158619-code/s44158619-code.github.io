@@ -2,7 +2,7 @@ security:
   funcs:
     getenv: ["^HUGO_", "^CI$", "WC_POST_CSS"]
 
-title: ""
+title: "Yoon Oh"
 baseURL: "https://s44158619-code.github.io/"
 
 defaultContentLanguage: ko

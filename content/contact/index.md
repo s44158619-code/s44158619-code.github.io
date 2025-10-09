@@ -21,15 +21,10 @@ sections:
       coordinates:
         latitude: "35.845169"
         longitude: "127.124594"
-      directions: ""
+      directions:
+
       autolink: true
 
     design:
-      columns: "2"
-
-features:
-  map:
-    provider: "mapnik"
-    api_key: ""
-    zoom: 16
+      columns: "3"
 ---

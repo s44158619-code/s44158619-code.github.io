@@ -12,6 +12,7 @@ marketing:
     org_name: "전북대학교"
     description: "전북대학교 컴퓨터인공지능학부 학생 성윤오의 포트폴리오 사이트입니다. 프로젝트, 기술, 관심 분야를 소개합니다."
     twitter: ""
+    image: "media/icon.png"
   analytics:
     google_analytics: ""
     baidu_tongji: ""
@@ -26,7 +27,6 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_title: false
     show_language: true
     show_day_night: true
     show_search: true
@@ -34,7 +34,7 @@ header:
 
 footer:
   copyright:
-    notice: "© {year} 성윤오. This work is licensed under {license}"
+    notice: "© {year} 성윤오 (Yoonoh Seong). This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -82,9 +82,9 @@ features:
       index_name: ""
       show_logo: false
   map:
-    provider: ""
+    provider: "maplink"
     api_key: ""
-    zoom: 15
+    zoom: 16
 
 extensions:
   cms:
@@ -94,6 +94,16 @@ extensions:
     enable: false
   fontawesome:
     enable: true
+
+images:
+  - "/media/icon.png"
+
+params:
+  branding:
+    logo:
+      light: "media/logo-light.png"
+      dark: "media/logo-dark.png"
+    logo_width: 180
 
 social:
   - icon: github
@@ -114,10 +124,3 @@ social:
   - icon: blog
     icon_pack: fas
     link: "https://blog.naver.com/csaicsai"
-
-params:
-  branding:
-    logo:
-      light: "media/logo-light.png"
-      dark: "media/logo-dark.png"
-    logo_width: 180

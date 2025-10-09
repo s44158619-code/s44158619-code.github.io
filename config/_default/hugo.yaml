@@ -2,7 +2,7 @@ security:
   funcs:
     getenv: ["^HUGO_", "^CI$", "WC_POST_CSS"]
 
-title: ""
+title: "성윤오"
 baseURL: "https://s44158619-code.github.io/"
 
 defaultContentLanguage: ko

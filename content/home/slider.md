@@ -14,6 +14,7 @@ content:
         brightness: 0.6
         position: center
         fit: cover
+        alt: "Photo by Someone on Unsplash"
 
     - title: "Collaboration"
       content: "협업 관련 이미지"
@@ -23,6 +24,7 @@ content:
         brightness: 0.6
         position: center
         fit: cover
+        alt: "Photo by Someone on Unsplash"
 
     - title: "Motivation"
       content: "영감 관련 이미지"
@@ -32,6 +34,7 @@ content:
         brightness: 0.6
         position: center
         fit: cover
+        alt: "Photo by Someone on Unsplash"
 
 design:
   slide_height: "420px"

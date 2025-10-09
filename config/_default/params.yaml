@@ -15,7 +15,7 @@ marketing:
     keywords:
       ["전북대", "성윤오", "포트폴리오", "컴퓨터인공지능학부", "AI", "Projects"]
     twitter: ""
-    image: "media/logo.png"
+    image: "/media/icon.png"
     google_analytics: ""
     baidu_tongji: ""
     google_tag_manager: ""
@@ -33,6 +33,13 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+
+branding:
+  logo:
+    light: "media/logo-light.png"
+    dark: "media/logo-dark.png"
+  favicon: "media/icon.png"
+  logo_width: 180
 
 footer:
   copyright:
@@ -99,14 +106,6 @@ extensions:
 
 images:
   - "/media/icon.png"
-
-params:
-  branding:
-    logo:
-      light: "media/logo-light.png"
-      dark: "media/logo-dark.png"
-    favicon: "media/icon.png"
-    logo_width: 180
 
 social:
   - icon: github

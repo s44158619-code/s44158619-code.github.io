@@ -1,6 +1,6 @@
 ---
 widget: contact
-headless: false
+headless: true
 title: "연락처"
 weight: 60
 

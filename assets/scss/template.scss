@@ -382,3 +382,59 @@ a:hover {
   color: #fff !important;
   text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
 }
+
+/* Vertical Card */
+.card-vertical {
+  position: relative;
+  height: 220px;
+  margin: 1rem 0;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+}
+.card-vertical .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-vertical h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-vertical p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Horizontal Card */
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+  background: #1e293b;
+  color: #fff;
+}
+.card-horizontal img {
+  width: 40%;
+  object-fit: cover;
+}
+.card-horizontal .content {
+  padding: 1rem;
+}
+.card-horizontal h3 {
+  margin: 0 0 0.5rem;
+}
+.card-horizontal p {
+  margin: 0;
+  opacity: 0.85;
+}

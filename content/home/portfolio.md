@@ -7,7 +7,7 @@ headless: true
 weight: 20
 
 title: "프로젝트"
-subtitle: "제가 진행한 프로젝트 / 감상문 / 개인 기록모음"
+subtitle: "진행한 프로젝트 / 감상문 / 개인 기록모음"
 
 content:
   page_type: project

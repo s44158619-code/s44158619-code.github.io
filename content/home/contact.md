@@ -2,6 +2,7 @@
 title: "연락처"
 date: 2025-10-08
 type: landing
+active: false
 
 sections:
   - block: contact

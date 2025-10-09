@@ -306,3 +306,79 @@ a:hover {
   margin: 0 .3rem .3rem;
   border-radius: .5rem;
 }
+
+
+.home-section .isotope-filters,
+.home-section .project-filters,
+.home-section .filter-button-group,
+.home-section .btn-group.filters {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  gap: 0;
+}
+
+.home-section .isotope-filters .btn,
+.home-section .project-filters .btn,
+.home-section .filter-button-group .btn,
+.home-section .btn-group.filters .btn {
+  border-radius: 0;
+  margin: 0; 
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #2563eb;
+  background: #2563eb;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.home-section .filter-button-group .btn:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.home-section .filter-button-group .btn:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.home-section .filter-button-group .btn:hover {
+  background: #ff6f61;
+  border-color: #ff6f61;
+  color: #fff;
+}
+
+.home-section .filter-button-group .btn.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption p {
+  color: #fff !important;
+  text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
+}

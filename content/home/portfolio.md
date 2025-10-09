@@ -7,7 +7,7 @@ headless: true
 weight: 20
 
 title: "프로젝트"
-subtitle: "기술적인 프로젝트 / 생각과 기록 / 리뷰"
+subtitle: ""
 
 content:
   page_type: project

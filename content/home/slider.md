@@ -3,7 +3,6 @@ widget: slider
 headless: true
 active: true
 weight: 90
-title: ""
 
 content:
   slides:

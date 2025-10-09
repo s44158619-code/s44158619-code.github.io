@@ -1,6 +1,8 @@
 ---
 widget: hero
+title: "소개"
 headless: true
+active: true
 weight: 5
 
 title: "안녕하세요 👋"

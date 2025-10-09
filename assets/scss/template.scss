@@ -130,6 +130,7 @@ ul.network-icon .big-icon {
     max-width: 880px;
   }
 }
+
 @media (min-width: 992px) {
   .home-section .container {
     max-width: 880px;
@@ -174,8 +175,9 @@ a {
 }
 
 a:hover {
-  color: #1d4ed8;
+  color: #22c55e !important;
   text-decoration: underline;
+  transition: color 0.2s ease;
 }
 
 .dark a {
@@ -270,14 +272,21 @@ a:hover {
   color: #fff !important;
 }
 
-.home-section .widget-slider { min-height: 420px; }
+.home-section .widget-slider { 
+  min-height: 420px; 
+}
+
 .home-section .widget-slider .slide { 
   min-height: 420px; 
   background-size: cover; 
   background-position: center; 
 }
 
-.navbar-brand img { height: 28px; width: auto; display: block; }
+.navbar-brand img { 
+  height: 28px; 
+  width: auto; 
+  display: block; 
+}
 
 .home-section .isotope-filters,
 .home-section .project-filters,
@@ -297,9 +306,3 @@ a:hover {
   margin: 0 .3rem .3rem;
   border-radius: .5rem;
 }
-
-a:hover {
-  color: #1e90ff;
-  transition: color 0.3s ease;
-}
-

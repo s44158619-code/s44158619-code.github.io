@@ -7,7 +7,7 @@ image:
   caption: "전북대학교 캠퍼스"
   focal_point: "Center"
   preview_only: false
-  filename: "전북대.jpg"
+  filename: "전북대.png"
 ---
 
 ## 👋 안녕하세요, 성윤오입니다!

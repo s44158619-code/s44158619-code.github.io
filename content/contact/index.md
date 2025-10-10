@@ -22,9 +22,7 @@ sections:
         latitude: "35.84652"
         longitude: "127.12939"
       autolink: true
-      map:
-        zoom: 16
-        api: "leaflet"
+
     design:
       columns: "2"
 ---

@@ -10,16 +10,6 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
-languages:
-  ko:
-    languageCode: ko-KR
-    title: "You know Yoon Oh"
-    weight: 1
-  # en:
-  #   languageCode: en-US
-  #   title: "Seong Yoonoh's Portfolio"
-  #   weight: 2
-
 enableGitInfo: false
 summaryLength: 30
 paginate: 10

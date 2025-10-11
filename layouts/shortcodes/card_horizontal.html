@@ -1,9 +1,12 @@
-<div class="card-horizontal">
-  <div class="card-image">
-    <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}">
+<div class="card-horizontal" style="display: flex; align-items: center; gap: 20px; background-color: #1e2530; border-radius: 12px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+
+  <div class="card-image" style="flex: 0 0 40%;">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
   </div>
-  <div class="card-content">
-    <h3>{{ .Get "title" }}</h3>
-    <p>{{ .Get "desc" }}</p>
+
+  <div class="card-content" style="flex: 1;">
+    <h3 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #fff;">{{ .Get "title" }}</h3>
+    <p style="margin-top: 8px; color: #ccc;">{{ .Get "desc" }}</p>
   </div>
+
 </div>

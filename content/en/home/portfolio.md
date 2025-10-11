@@ -1,12 +1,12 @@
 ---
 widget: portfolio
-title: "project"
+title: "Projects"
 active: true
 headless: true
 
 weight: 20
 
-title: "project"
+title: "Projects"
 subtitle: ""
 
 content:
@@ -17,9 +17,9 @@ content:
   filter_button:
     - name: "View all"
       tag: "*"
-    - name: "tech-projects"
+    - name: "Tech-Projects"
       tag: "tech-projects"
-    - name: "thoughts and records"
+    - name: "Thoughts and Records"
       tag: "Writings"
     - name: "Reviews"
       tag: "Reviews"

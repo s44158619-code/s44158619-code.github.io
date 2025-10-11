@@ -2,11 +2,13 @@ security:
   funcs:
     getenv: ["^HUGO_", "^CI$", "WC_POST_CSS"]
 
-title: "Yoon Oh"
+title: "성윤오 | 전북대 컴퓨터인공지능학부 학생"
 baseURL: "https://s44158619-code.github.io/"
 
 defaultContentLanguage: ko
 hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
+removePathAccents: true
 
 languages:
   ko:

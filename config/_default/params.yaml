@@ -99,7 +99,7 @@ features:
       index_name: ""
       show_logo: false
   map:
-    provider: "maplink"
+    provider: "mapnik"
     api_key: ""
     zoom: 16
 

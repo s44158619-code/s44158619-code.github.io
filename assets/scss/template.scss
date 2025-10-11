@@ -438,3 +438,14 @@ a:hover {
   margin: 0;
   opacity: 0.85;
 }
+
+p, li {
+  text-align: justify;
+}
+
+.about-section p,
+.experience-section p,
+.project-section p,
+.contact-section p {
+  text-align: justify;
+}

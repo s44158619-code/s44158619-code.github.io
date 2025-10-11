@@ -11,7 +11,7 @@ hasCJKLanguage: true
 languages:
   ko:
     languageCode: ko-KR
-    title: "성윤오 포트폴리오"
+    title: "You know Yoon Oh"
     weight: 1
   # en:
   #   languageCode: en-US

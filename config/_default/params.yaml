@@ -128,3 +128,6 @@ image: "avatar.jpg"
 og_image: "media/avatar.jpg"
 description: "전북대학교 컴퓨터인공지능학부 성윤오 포트폴리오"
 author: "성윤오"
+
+customCSS:
+  - css/custom.css

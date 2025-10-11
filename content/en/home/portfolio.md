@@ -1,12 +1,12 @@
 ---
 widget: portfolio
-title: "프로젝트"
+title: "project"
 active: true
 headless: true
 
 weight: 20
 
-title: "프로젝트"
+title: "project"
 subtitle: ""
 
 content:
@@ -15,13 +15,13 @@ content:
   filter_default: 0
   
   filter_button:
-    - name: "전체 보기"
+    - name: "View all"
       tag: "*"
-    - name: "기술적인 프로젝트"
+    - name: "tech-projects"
       tag: "tech-projects"
-    - name: "생각과 기록"
+    - name: "thoughts and records"
       tag: "Writings"
-    - name: "리뷰"
+    - name: "Reviews"
       tag: "Reviews"
     
 design:

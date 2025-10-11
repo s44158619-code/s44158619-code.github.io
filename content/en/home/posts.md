@@ -3,8 +3,8 @@ widget: pages
 headless: true
 active: true
 weight: 70
-title: "최근 글"
-subtitle: "업데이트 기록과 블로그 포스트"
+title: "Recent Posts"
+subtitle: "Update history and blog posts"
 
 content:
   page_type: post

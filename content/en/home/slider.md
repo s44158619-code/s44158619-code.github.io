@@ -7,7 +7,7 @@ weight: 90
 content:
   slides:
     - title: "AI"
-      content: "인공지능 관련 이미지"
+      content: "Artificial intelligence related images"
       align: center
       background:
         media: "slider1.jpg"
@@ -17,7 +17,7 @@ content:
         alt: "Photo by Someone on Unsplash"
 
     - title: "Collaboration"
-      content: "협업 관련 이미지"
+      content: "Collaboration related images"
       align: center
       background:
         media: "slider2.jpg"
@@ -27,7 +27,7 @@ content:
         alt: "Photo by Someone on Unsplash"
 
     - title: "Motivation"
-      content: "영감 관련 이미지"
+      content: "Inspiration related images"
       align: center
       background:
         media: "slider3.jpg"

@@ -7,27 +7,35 @@ baseURL: "https://s44158619-code.github.io/"
 
 defaultContentLanguage: ko
 hasCJKLanguage: true
-# languages:
-# ko:
-# languageCode: ko-KR
-# title: "성윤오 포트폴리오"
-# weight: 1
-# en:
-# languageCode: en-US
-# title: "Seong Yoonoh's Portfolio"
-# weight: 2
 
-# enableGitInfo: false
-# summaryLength: 30
-# paginate: 10
-# enableEmoji: true
-# enableRobotsTXT: true
-# outputs:
-#   home: [HTML, RSS, JSON, WebAppManifest]
-#   section: [HTML, RSS]
-# markup:
-#   goldmark:
-#     renderer:
-#       unsafe: true
-#   highlight:
-#     style: dracula
+languages:
+  ko:
+    languageCode: ko-KR
+    title: "성윤오 포트폴리오"
+    weight: 1
+  # en:
+  #   languageCode: en-US
+  #   title: "Seong Yoonoh's Portfolio"
+  #   weight: 2
+
+enableGitInfo: false
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+
+params:
+  search: true
+  description: "전북대학교 컴퓨터인공지능학부 성윤오 포트폴리오"
+  author: "성윤오"

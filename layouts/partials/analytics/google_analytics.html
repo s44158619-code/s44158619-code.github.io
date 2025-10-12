@@ -1,0 +1,15 @@
+{{/* Google Analytics 4 — Portfolio tracking integration */}}
+{{- with site.Config.Services.GoogleAnalytics.ID -}}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{ . }}', {
+    'anonymize_ip': true,
+    'send_page_view': true
+  });
+  console.log("✅ Google Analytics initialized: {{ . }}");
+</script>
+{{- end -}}

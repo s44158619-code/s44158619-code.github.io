@@ -150,7 +150,6 @@ a:hover {
   color: #fff !important;
 }
 
-/* 슬라이더 영역 */
 .hero-slide {
   position: relative;
   background-size: cover;
@@ -180,7 +179,6 @@ a:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 
-/* 캐러셀 텍스트 완전 중앙 고정 */
 .carousel-item {
   position: relative;
 }
@@ -194,31 +192,34 @@ a:hover {
 }
 
 .carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  z-index: 2;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: absolute !important;
+  inset: 0 !important;
   text-align: center !important;
-  color: #fff;
-}
-
-.carousel-caption h1, .carousel-caption h2, .carousel-caption p {
   color: #fff !important;
-  text-align: center !important;
-  text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
-  margin: 0 auto;
+  z-index: 3 !important;
 }
 
-/* 제목 시각 강조 */
-.carousel-caption h1 {
+.carousel-caption h1,
+.carousel-caption h2 {
   font-size: 2.4rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  margin: 0.5rem 0;
+  color: #fff !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
 }
 
-/* 카드 관련 */
+.carousel-caption p,
+.carousel-caption .slide-content {
+  font-size: 1.1rem;
+  color: #e5e7eb !important;
+  margin-top: 0.3rem;
+  text-align: center !important;
+}
+
 .card-vertical {
   position: relative;
   height: 220px;
@@ -333,7 +334,6 @@ p, li,
   border-color: #22c55e;
 }
 
-/* 반응형 */
 @media (max-width: 768px) {
   .card-horizontal {
     flex-direction: column;
@@ -365,68 +365,12 @@ p, li,
   p {
     font-size: 0.95em;
   }
-}
 
-.carousel-caption {
-  text-align: center !important;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  z-index: 3;
-}
-
-.carousel-caption .slide-title,
-.carousel-caption h1,
-.carousel-caption h2 {
-  text-align: center !important;
-  display: block;
-  width: 100%;
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 0.6rem;
-}
-
-.carousel-caption .slide-content,
-.carousel-caption .slide-content p {
-  text-align: center !important;
-  margin: 0 auto;
-  width: 100%;
-  font-size: 1.1rem;
-  color: #e5e7eb;
-}
-
-@media (max-width: 768px) {
   .carousel-caption .slide-title {
     font-size: 1.6rem;
   }
+
   .carousel-caption .slide-content p {
     font-size: 1rem;
   }
-}
-
-.carousel-caption {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  inset: 0;
-  text-align: center;
-  color: #fff;
-  z-index: 3;
-}
-
-.carousel-caption h1,
-.carousel-caption h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin: 0.5rem 0;
-}
-
-.carousel-caption p,
-.carousel-caption .slide-content {
-  font-size: 1.1rem;
-  color: #e5e7eb;
-  margin-top: 0.3rem;
 }

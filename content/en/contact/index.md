@@ -18,9 +18,9 @@ sections:
         country: korea
         country_code: KR
       coordinates:
-        latitude: "35.846833"
-        longitude: "127.129361"
-      autolink: true
+        latitude: "35.84614386613747"
+        longitude: "127.13450518747047"
+      directions:
 
     design:
       columns: "2"

@@ -150,6 +150,7 @@ a:hover {
   color: #fff !important;
 }
 
+/* 슬라이더 영역 */
 .hero-slide {
   position: relative;
   background-size: cover;
@@ -179,6 +180,7 @@ a:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 
+/* 캐러셀 텍스트 완전 중앙 고정 */
 .carousel-item {
   position: relative;
 }
@@ -196,16 +198,27 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
   z-index: 2;
-  text-align: center;
+  text-align: center !important;
   color: #fff;
 }
 
 .carousel-caption h1, .carousel-caption h2, .carousel-caption p {
   color: #fff !important;
+  text-align: center !important;
   text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
+  margin: 0 auto;
 }
 
+/* 제목 시각 강조 */
+.carousel-caption h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* 카드 관련 */
 .card-vertical {
   position: relative;
   height: 220px;
@@ -320,6 +333,7 @@ p, li,
   border-color: #22c55e;
 }
 
+/* 반응형 */
 @media (max-width: 768px) {
   .card-horizontal {
     flex-direction: column;
@@ -334,6 +348,14 @@ p, li,
 
   .card-content {
     padding: 0 1rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.6rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
   }
 
   h1, h2, h3 {

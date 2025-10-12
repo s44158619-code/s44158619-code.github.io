@@ -404,3 +404,29 @@ p, li,
     font-size: 1rem;
   }
 }
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 세로 가운데 */
+  align-items: center;     /* 가로 가운데 */
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  color: #fff;
+  z-index: 3;
+}
+
+.carousel-caption h1,
+.carousel-caption h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.carousel-caption p,
+.carousel-caption .slide-content {
+  font-size: 1.1rem;
+  color: #e5e7eb;
+  margin-top: 0.3rem;
+}

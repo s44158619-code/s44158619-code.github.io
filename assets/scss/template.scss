@@ -408,8 +408,8 @@ p, li,
 .carousel-caption {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 세로 가운데 */
-  align-items: center;     /* 가로 가운데 */
+  justify-content: center;
+  align-items: center;
   position: absolute;
   inset: 0;
   text-align: center;

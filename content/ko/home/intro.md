@@ -15,4 +15,4 @@ author: admin
 - 🤖 인공지능(AI)
 - 🗣 사람과 교류하는 것
 
-👉 제 <span style="color:#EF4444; font-weight:bold;">[소개](/about/)</span>와 아래 포트폴리오 프로젝트를 확인해 주세요
+👉 제 <span style="color:#EF4444; font-weight:bold;">[소개]({{< relref "/about" >}})</span>와 아래 포트폴리오 프로젝트를 확인해 주세요

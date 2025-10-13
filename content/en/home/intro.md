@@ -15,4 +15,4 @@ author: admin
 - 🤖 Artificial Intelligence (AI)
 - 🗣 Interacting with people
 
-👉 Check out my <span style="color:#EF4444; font-weight:bold;">[About](/about/)</span> and portfolio projects below.
+👉 Check out my <span style="color:#EF4444; font-weight:bold;">[About]({{< relref "/about" >}})</span> and portfolio projects below.

@@ -22,7 +22,7 @@ cta:
 
 cta_alt:
   label: "download resume 📄"
-  url: "/files/resume.pdf"
+  url: "https://s44158619-code.github.io/files/resume.pdf"
   icon_pack: fas
   icon: download
 

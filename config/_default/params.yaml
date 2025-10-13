@@ -151,6 +151,3 @@ services:
 marketing:
   verification:
     google: "Izntv3d_scj_G8AIcXk-C7GL_sR0d3-ODgDyhxiZuOc"
-
-canonifyURLs: true
-relativeURLs: false

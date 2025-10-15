@@ -8,6 +8,7 @@ image:
   focal_point: "Center"
   preview_only: false
   filename: "전북대.png"
+courses: []
 ---
 
 ## 👋 Hello, this is Seong Yoon-oh.!

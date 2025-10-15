@@ -8,7 +8,6 @@ image:
   focal_point: "Center"
   preview_only: false
   filename: "전북대.png"
-courses: []
 ---
 
 ## 👋 안녕하세요, 성윤오입니다!

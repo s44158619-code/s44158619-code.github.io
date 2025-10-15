@@ -14,6 +14,12 @@ education:
     institution: "JeonBuk National University"
     year: While attending school
 
+courses:
+  - name: ""
+    course: ""
+    institution: ""
+    year: ""
+
 social:
   - icon: github
     icon_pack: fab

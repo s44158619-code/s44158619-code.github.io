@@ -14,6 +14,12 @@ education:
     institution: "전북대학교"
     year: 재학 중
 
+courses:
+  - name: ""
+    course: ""
+    institution: ""
+    year: ""
+
 social:
   - icon: github
     icon_pack: fab

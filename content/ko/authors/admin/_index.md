@@ -1,5 +1,5 @@
 ---
-title: 성윤오
+title: "성윤오"
 superuser: true
 role: "전북대학교 컴퓨터인공지능학부 학생"
 

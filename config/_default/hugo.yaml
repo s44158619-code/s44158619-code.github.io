@@ -31,7 +31,7 @@ markup:
 params:
   search: true
   description: "전북대학교 컴퓨터인공지능학부 성윤오 포트폴리오"
-  author: "성윤오"
+  author: "admin"
 
 canonifyURLs: true
 relativeURLs: false

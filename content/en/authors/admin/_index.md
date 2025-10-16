@@ -1,6 +1,6 @@
 ---
 superuser: true
-authors:
+author:
   - admin
 title: "Seong YoonOh"
 role: "Student, Dept. of Computer and Artificial Intelligence"

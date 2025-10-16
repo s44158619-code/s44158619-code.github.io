@@ -1,25 +1,17 @@
 ---
-title: "Seong YoonOh"
 superuser: true
-role: "Student at the Department of Computer and Artificial Intelligence, Jeonbuk National University"
-
-media: "avatar.jpg"
-
+authors:
+  - admin
+title: "Seong YoonOh"
+role: "Student, Dept. of Computer and Artificial Intelligence"
 organizations:
-  - name: "JeonBuk National University"
+  - name: "Jeonbuk National University"
     url: "https://www.jbnu.ac.kr"
-
 education:
-  - course: "Computer and Artificial Intelligence major"
-    institution: "JeonBuk National University"
-    year: While attending school
-
-courses:
-  - name: ""
-    course: ""
-    institution: ""
-    year: ""
-
+  courses:
+    - course: "Major in Computer and Artificial Intelligence"
+      institution: "Jeonbuk National University"
+      year: "In attendance"
 social:
   - icon: github
     icon_pack: fab
@@ -41,5 +33,4 @@ social:
     link: "https://blog.naver.com/csaicsai"
 ---
 
-👋 Hello! My name is Seong yoon-oh, and I'm currently studying computer and artificial intelligence at Chonbuk National University.
-I'm very interested in AI and software development, and I'm growing through diverse project experiences.
+👋 Hello! My name is Seong Yoonoh, and I'm currently studying at the Department of Computer and Artificial Intelligence at Jeonbuk National University. I'm very interested in AI and software development, and I'm growing through diverse project experiences.

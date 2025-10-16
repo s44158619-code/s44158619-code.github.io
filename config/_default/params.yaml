@@ -13,18 +13,16 @@ marketing:
     site_title: "전북대 성윤오 포트폴리오"
     description: "전북대학교 컴퓨터인공지능학부 학생 성윤오의 포트폴리오 사이트입니다. 프로젝트, 기술, 관심 분야를 소개합니다."
     keywords:
-      [
-        "전북대학교",
-        "전북대",
-        "성윤오",
-        "전북대 성윤오",
-        "포트폴리오",
-        "컴퓨터인공지능학부",
-        "AI",
-        "Projects",
-        "Hugo",
-        "GitHub Pages",
-      ]
+      -  "전북대학교"
+      -  "전북대"
+      -  "성윤오"
+      -  "전북대 성윤오"
+      -  "포트폴리오"
+      -  "컴퓨터인공지능학부"
+      -  "AI"
+      -  "Projects"
+      -  "Hugo"
+      -  "GitHub Pages"
     twitter: ""
     image: "icon.png"
     baidu_tongji: ""

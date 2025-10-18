@@ -59,7 +59,7 @@ My goal is to create AI services that enable people and technology to grow toget
 
 ### 🧾 **download resume**
 
-{{< icon name="download" pack="fas" >}} {{< staticref "files/resume.pdf" "newtab" >}}download resume{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} {{< staticref "/files/resume.pdf" "newtab" >}}download resume{{< /staticref >}}
 
 ---
 

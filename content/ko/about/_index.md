@@ -60,7 +60,7 @@ AI와 자바 언어 에 흥미를 가지고 공부하고 있습니다.
 
 ### 🧾 **이력서 다운로드**
 
-{{< icon name="download" pack="fas" >}} {{< staticref "files/resume.pdf" "newtab" >}}이력서 다운로드{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} {{< staticref "/files/resume.pdf" "newtab" >}}이력서 다운로드{{< /staticref >}}
 
 ---
 

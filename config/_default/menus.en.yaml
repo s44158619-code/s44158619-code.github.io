@@ -30,7 +30,7 @@ main:
     weight: 33
   - parent: "resources"
     name: "Download Resume"
-    url: https://s44158619-code.github.io/files/resume.pdf
+    url: "https://s44158619-code.github.io/files/resume.pdf"
     weight: 51
   - parent: "resources"
     name: "GitHub"

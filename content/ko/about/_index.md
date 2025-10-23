@@ -4,7 +4,7 @@ type: type
 date: 2025-10-10
 
 image:
-  caption: "내 얼굴"
+  caption: "어 형이야."
   focal_point: "Center"
   preview_only: false
   filename: "avatar.jpg"

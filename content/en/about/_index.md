@@ -4,10 +4,10 @@ type: type
 date: 2025-10-10
 
 image:
-  caption: "Jeonbuk National University Campus"
+  caption: "Oh my brother."
   focal_point: "Center"
   preview_only: false
-  filename: "전북대.png"
+  filename: "avatar.jpg"
 ---
 
 ## 👋 Hello, this is Seong Yoon-oh.!

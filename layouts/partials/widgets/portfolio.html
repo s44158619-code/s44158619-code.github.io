@@ -1,0 +1,22 @@
+{{/* 1. 이 위젯(portfolio.md)의 설정을 가져옵니다. */}}
+{{ $widget := .Page }}
+{{ $content := $widget.Params.content }}
+{{ $design := $widget.Params.design }}
+
+{{/* 2. 'content.page_type' ('project')에 해당하는 페이지들을 
+      모두 찾습니다. */}}
+{{ $page_type := $content.page_type | default "project" }}
+{{ $pages := where (where site.RegularPages "Type" $page_type) ".Lang" "ko" }}
+
+{{/* 3. 'design.view'에 설정된 템플릿 이름(community/card_horizontal)을 
+      가져옵니다. */}}
+{{ $view := $design.view | default "card" }}
+
+<div class="centered-content">
+  {{/* 4. 찾은 페이지들을 하나씩 반복(range)합니다. */}}
+  {{ range $pages }}
+    {{/* 5. 각 페이지(.)를 'views/community/card_horizontal' 
+          템플릿으로 넘겨서 실행합니다. */}}
+    {{ partial (printf "views/%s" $view) . }}
+  {{ end }}
+</div>

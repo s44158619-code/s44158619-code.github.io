@@ -1,0 +1,36 @@
+{{/* 1. 위젯 설정을 불러옵니다. */}}
+{{ $widget := .Page }}
+{{ $content := $widget.Params.content }}
+{{ $design := $widget.Params.design | default dict }}
+
+{{/* 2. 'community/card_horizontal' 뷰 템플릿 경로를 준비합니다. */}}
+{{ $view := $design.view | default "card" }}
+{{ $view_path := printf "views/%s" $view }}
+
+{{/* 3. 테마의 'blox.GetPages' 함수를 사용해 'project' 타입의
+      콘텐츠를 'ko' 언어로 강제 검색합니다. */}}
+{{ $query := $content.page_type | default "project" }}
+{{ $items := blox.GetPages (dict "path" $query "lang" "ko") }}
+
+{{/* 4. 필터 버튼을 생성합니다. (기존 로직) */}}
+{{ with $content.filter_button }}
+  <div class="text-center">
+    <div class="btn-group filter-button-group">
+      {{ range . }}
+        <a class="btn btn-sm" data-filter="{{ .tag }}">{{ .name }}</a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+
+{{/* 5. 'isotope' 레이아웃으로 프로젝트 목록을 표시합니다. */}}
+<div class="isotope-container">
+  {{/* 6. 찾아온 프로젝트($items)를 하나씩 반복(range)합니다. */}}
+  {{ range $items }}
+    <div classs="isotope-item">
+      {{/* 7. 각 프로젝트(.)를 'community/card_horizontal' 
+            템플릿으로 넘겨서 실행합니다. */}}
+      {{ partial $view_path . }}
+    </div>
+  {{ end }}
+</div>

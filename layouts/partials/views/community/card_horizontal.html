@@ -1,25 +1,21 @@
 {{ $item := . }}
-
-{{/* index.md의 image: { filename: "..." } 값을 읽어옵니다. 
-*/}}
 {{ $image_filename := $item.Params.image.filename }}
 {{ $image := $item.Resources.Get $image_filename }}
 
-<div class="card-horizontal" style="display: flex; align-items: center; gap: 20px; background-color: #1e2530; border-radius: 12px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-
-  <div class="card-image" style="flex: 0 0 40%;">
-    {{/* 이미지가 성공적으로 로드되었으면 표시합니다. */}}
-    {{ with $image }}
+{{/* custom.css의 .card-horizontal 구조를 따릅니다. */}}
+<div class="card-horizontal">
+  {{/* <img>가 .card-horizontal의 첫 번째 자식입니다. */}}
+  {{ with $image }}
     <a href="{{ $item.RelPermalink }}">
-      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
+      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}">
     </a>
-    {{ end }}
-  </div>
+  {{ end }}
 
-  <div class="card-content" style="flex: 1;">
-    <h3 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #fff;">
-      <a href="{{ $item.RelPermalink }}" style="color: #fff; text-decoration: none;">{{ $item.Title }}</a>
+  {{/* .content가 두 번째 자식입니다. */}}
+  <div class="content">
+    <h3>
+      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
     </h3>
-    <p style="margin-top: 8px; color: #ccc;">{{ $item.Summary }}</p>
+    <p>{{ $item.Summary }}</p>
   </div>
 </div>

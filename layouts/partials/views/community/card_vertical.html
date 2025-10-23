@@ -3,13 +3,12 @@
 {{ $image := $item.Resources.Get $image_filename }}
 
 {{ with $image }}
-  {{/* custom.css에 .card-vertical, .overlay 스타일이 정의되어 있어야 합니다. 
-  */}}
+  {{/* custom.css의 .card-vertical 구조를 따릅니다. */}}
   <div class="card-vertical" style="background-image: url('{{ .RelPermalink }}');">
     <a href="{{ $item.RelPermalink }}" style="text-decoration: none;">
       <div class="overlay">
-        <h3 style="color: #fff; margin: 0;">{{ $item.Title }}</h3>
-        <p style="color: #eee; margin-top: 8px;">{{ $item.Summary }}</p>
+        <h3>{{ $item.Title }}</h3>
+        <p>{{ $item.Summary }}</p>
       </div>
     </a>
   </div>

@@ -2,7 +2,7 @@
 widget: portfolio
 title: "프로젝트"
 active: true
-headless: true
+# headless: true
 
 weight: 20
 

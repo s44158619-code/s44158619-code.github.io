@@ -1,6 +1,6 @@
 ---
 widget: pages
-headless: true
+# headless: true
 active: true
 weight: 70
 title: "최근 글"

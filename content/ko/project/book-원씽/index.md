@@ -1,6 +1,7 @@
 ---
 title: "『원씽』 감상문"
 summary: "한 가지에 집중하는 삶의 중요성에 대한 생각."
+type: project
 tags: ["Book2", "reviews"]
 date: 2025-10-05
 image:

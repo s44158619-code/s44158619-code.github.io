@@ -1,6 +1,7 @@
 ---
 title: "내가 좋아하는 명언"
 summary: "삶의 방향을 바꾼 문장들."
+type: project
 tags: ["Motivation", "writings"]
 date: 2025-10-05
 image:

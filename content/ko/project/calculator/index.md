@@ -1,6 +1,7 @@
 ---
 title: "CLI 계산기"
 summary: "파이썬으로 만든 간단한 사칙연산 계산기"
+type: project
 tags: ["CLI", "tech-projects"]
 date: 2025-10-05
 

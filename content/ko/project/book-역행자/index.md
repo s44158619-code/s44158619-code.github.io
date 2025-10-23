@@ -1,6 +1,7 @@
 ---
 title: "『역행자』 감상문"
 summary: "역행자를 읽고 느낀 자기 성장과 변화에 대한 생각."
+type: project
 tags: ["Book1", "reviews"]
 date: 2025-10-05
 image:

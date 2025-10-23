@@ -4,10 +4,10 @@ type: type
 date: 2025-10-10
 
 image:
-  caption: "전북대학교 캠퍼스"
+  caption: "내 얼굴"
   focal_point: "Center"
   preview_only: false
-  filename: "전북대.png"
+  filename: "avatar.jpg"
 ---
 
 ## 👋 안녕하세요, 성윤오입니다!

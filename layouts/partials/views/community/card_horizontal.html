@@ -2,39 +2,22 @@
 {{ $image_filename := $item.Params.image.filename }}
 {{ $image := $item.Resources.Get $image_filename }}
 
-{{/* custom.css의 .card-horizontal 구조를 따르되, 
-   테스트를 위해 바깥쪽에 빨간 테두리를 추가합니다. */}}
-<div class="card-horizontal" style="border: 2px solid red; padding: 5px;">
-  
-  {{/* --- 🐞 디버그 정보 --- */}}
-  <div style="background: #333; color: white; font-size: 10px; padding: 5px; margin-bottom: 5px; border-radius: 5px;">
-    DEBUG INFO:<br>
-    - Title: {{ $item.Title }}<br>
-    - Summary: {{ $item.Summary }}<br>
-    - Image Filename: {{ $image_filename }}<br>
-    - Image Resource: {{ $image }}
-  </div>
-  {{/* --- 디버그 끝 --- */}}
+{{/* template.scss의 .card-horizontal 구조를 정확히 따릅니다. */}}
+<div class="card-horizontal">
 
-  {{/* custom.css는 <img>가 첫 번째 자식, .content가 두 번째 자식이길 기대합니다.
-  */}}
-
+  {{/* 1. <img> 태그 */}}
   {{ with $image }}
     <a href="{{ $item.RelPermalink }}">
-      {{/* 이미지가 로드되면 노란색 테두리를 줍니다. */}}
-      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="border: 3px solid yellow;">
+      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}">
     </a>
-  {{ else }}
-    {{/* 이미지를 못 찾으면 주황색 경고 상자를 띄웁니다. */}}
-    <div style="background: orange; color: black; padding: 10px;">
-      IMAGE FAILED TO LOAD.
-    </div>
   {{ end }}
-  
+
+  {{/* 2. .content 태그 */}}
   <div class="content">
     <h3>
       <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
     </h3>
     <p>{{ $item.Summary }}</p>
   </div>
+  
 </div>

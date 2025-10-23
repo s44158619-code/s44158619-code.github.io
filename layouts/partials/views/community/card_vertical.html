@@ -3,7 +3,7 @@
 {{ $image := $item.Resources.Get $image_filename }}
 
 {{ with $image }}
-  {{/* custom.css의 .card-vertical 구조를 따릅니다. */}}
+  {{/* template.scss의 .card-vertical 구조를 따릅니다. */}}
   <div class="card-vertical" style="background-image: url('{{ .RelPermalink }}');">
     <a href="{{ $item.RelPermalink }}" style="text-decoration: none;">
       <div class="overlay">

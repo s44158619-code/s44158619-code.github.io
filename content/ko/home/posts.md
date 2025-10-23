@@ -12,6 +12,6 @@ content:
   order: desc
 
 design:
-  view: compact
+  view: community/card_vertical
   columns: 1
 ---

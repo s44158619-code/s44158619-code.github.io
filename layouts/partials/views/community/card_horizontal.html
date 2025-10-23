@@ -1,0 +1,26 @@
+{{/* . (점)은 프로젝트 페이지 하나를 의미합니다. */}}
+{{ $item := . }} 
+
+{{/* Hugo Blox 테마는 보통 'featured.jpg'나 'featured.png'를 대표 이미지로 사용합니다. */}}
+{{ $image := ($item.Resources.GetMatch "featured*") }}
+
+<div class="card-horizontal" style="display: flex; align-items: center; gap: 20px; background-color: #1e2530; border-radius: 12px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+
+  <div class="card-image" style="flex: 0 0 40%;">
+    {{/* 이미지가 있으면 링크와 함께 표시합니다. */}}
+    {{ with $image }}
+    <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="card-content" style="flex: 1;">
+    {{/* .Get "title" 대신 .Title 을 사용합니다. */}}
+    <h3 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #fff;">
+      <a href="{{ $item.RelPermalink }}" style="color: #fff; text-decoration: none;">{{ $item.Title }}</a>
+    </h3>
+    {{/* .Get "desc" 대신 .Summary 를 사용합니다. */}}
+    <p style="margin-top: 8px; color: #ccc;">{{ $item.Summary }}</p>
+  </div>
+</div>

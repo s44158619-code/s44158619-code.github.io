@@ -1,21 +1,5 @@
-{{ $item := . }}
-{{ $image_filename := $item.Params.image.filename }}
-{{ $image := $item.Resources.Get $image_filename }}
-
-{{/* custom.css의 .card-horizontal 구조를 따릅니다. */}}
-<div class="card-horizontal">
-  {{/* <img>가 .card-horizontal의 첫 번째 자식입니다. */}}
-  {{ with $image }}
-    <a href="{{ $item.RelPermalink }}">
-      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}">
-    </a>
-  {{ end }}
-
-  {{/* .content가 두 번째 자식입니다. */}}
-  <div class="content">
-    <h3>
-      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
-    </h3>
-    <p>{{ $item.Summary }}</p>
-  </div>
+<div style="background: red; color: white; padding: 10px; margin: 5px; border: 2px solid white;">
+  TESTING: 이 글자가 보이면 파일 업데이트 성공입니다.
+  <br>
+  - 프로젝트 제목: {{ .Title }}
 </div>

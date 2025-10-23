@@ -1,8 +1,8 @@
 ---
-widget: portfolio
+widget: pages # <--- "portfolio"에서 "pages"로 변경했습니다.
 title: "프로젝트"
 active: true
-# headless: true
+# headless: true (삭제된 상태 유지)
 
 weight: 20
 

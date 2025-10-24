@@ -28,11 +28,6 @@ markup:
   highlight:
     style: dracula
 
-module:
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-
 params:
   search: true
   description: "전북대학교 컴퓨터인공지능학부 성윤오 포트폴리오"

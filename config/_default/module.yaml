@@ -1,3 +1,2 @@
 imports:
   - path: github.com/wowchemy/wowchemy-hugo-themes/modulses/wowchemy/v5
-  - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5

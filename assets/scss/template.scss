@@ -270,16 +270,21 @@ a:hover {
 }
 
 .card-horizontal .content {
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-horizontal h3 {
   margin: 0 0 0.5rem;
+  font-size: 1.3rem;
 }
 
 .card-horizontal p {
   margin: 0;
   opacity: 0.85;
+  font-size: 0.95rem;
 }
 
 p, li,

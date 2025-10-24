@@ -1,15 +1,17 @@
-{{ $item := . }}
-{{ $image_filename := $item.Params.image.filename }}
-{{ $image := $item.Resources.Get $image_filename }}
-
-{{ with $image }}
-  {{/* template.scss의 .card-vertical 구조를 따릅니다. */}}
-  <div class="card-vertical" style="background-image: url('{{ .RelPermalink }}');">
-    <a href="{{ $item.RelPermalink }}" style="text-decoration: none;">
-      <div class="overlay">
-        <h3>{{ $item.Title }}</h3>
-        <p>{{ $item.Summary }}</p>
-      </div>
-    </a>
-  </div>
+{{/* 템플릿이 받은 데이터 덩어리(.)에서 "item" 상자를 꺼냅니다. */}} {{ $item :=
+.item }} {{/* "item" 상자 안의 페이지 정보(.Params, .Resources)를 사용합니다.
+*/}} {{ $image_filename := $item.Params.image.filename }} {{ $image :=
+$item.Resources.Get $image_filename }} {{ with $image }} {{/* custom.css의
+.card-vertical 구조를 따릅니다. */}}
+<div
+  class="card-vertical"
+  style="background-image: url('{{ .RelPermalink }}');"
+>
+  <a href="{{ $item.RelPermalink }}" style="text-decoration: none">
+    <div class="overlay">
+      <h3>{{ $item.Title }}</h3>
+      <p>{{ $item.Summary }}</p>
+    </div>
+  </a>
+</div>
 {{ end }}

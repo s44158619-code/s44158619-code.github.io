@@ -1,6 +1,0 @@
-imports:
-  # 1. Wowchemy 핵심 테마 (v5)
-  - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-
-  # 2. Wowchemy CMS 플러그인 (v5)
-  - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5

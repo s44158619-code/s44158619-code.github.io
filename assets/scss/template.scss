@@ -252,28 +252,31 @@ a:hover {
   opacity: 0.9;
 }
 
+/* --- 👇 여기가 수정된 부분입니다 👇 --- */
 .card-horizontal {
   display: flex;
+  flex-direction: column;
   border: 1px solid #333;
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem 0;
   background: #1e293b;
   color: #fff;
+  height: 100%;
 }
 
 .card-horizontal a {
   display: block;
   flex-shrink: 0;
-  width: 30%;
+  width: 100%;
   height: 220px;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .card-horizontal img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-horizontal .content {
@@ -281,11 +284,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-grow: 1;
+  text-align: left;
 }
 
 .card-horizontal h3 {
   margin: 0 0 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .card-horizontal p {
@@ -348,24 +353,13 @@ p, li,
 }
 
 @media (max-width: 768px) {
-  .card-horizontal {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .card-horizontal a {
-    width: 100%;
     height: 180px;
   }
 
-  .card-horizontal img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
-  }
-
-  .card-content {
-    padding: 1rem 1rem;
+  .card-horizontal .content {
+    padding: 1rem;
+    text-align: center;
   }
 
   .carousel-caption h1 {

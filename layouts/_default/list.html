@@ -29,10 +29,29 @@
   <div class="isotope-container">
     {{ range .Pages }}
       {{/* 데이터를 dict "item" . 으로 전달 */}}
-      {{ partial "views/card" (dict "item" .) }}  {{/* <--- 이 줄이 변경되었습니다 */}}
+      {{ partial "views/card" (dict "item" .) }}
     {{ end }}
   </div>
 
-</div>
+</div> {{/* container 끝 */}}
 
-{{ end }}
+{{/* --- 👇 이력서 링크 수정 스크립트 👇 --- */}}
+<script>
+  window.addEventListener('load', function() {
+    let resumeLink = document.querySelector('a.dropdown-item[data-target="https://s44158619-code.github.io/files/resume.pdf"]');
+    if (!resumeLink) {
+      resumeLink = document.querySelector('a.dropdown-item[href="/ko/files/resume.pdf"]');
+    }
+    if (resumeLink && resumeLink.dataset.target === "https://s44158619-code.github.io/files/resume.pdf") {
+      resumeLink.href = resumeLink.dataset.target;
+      resumeLink.target = '_blank';
+      resumeLink.rel = 'noopener noreferrer';
+      console.log("list.html: 이력서 링크 href 수정 완료!", resumeLink.href); // 성공 로그
+    } else {
+      console.error("list.html: 이력서 링크를 찾지 못했습니다."); // 실패 로그
+    }
+  });
+</script>
+{{/* --- 👆 스크립트 끝 👆 --- */}}
+
+{{ end }} {{/* define "main" 끝 */}}

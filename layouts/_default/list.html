@@ -1,29 +1,32 @@
 {{ define "main" }}
-
 <div class="container pt-3">
-  {{/* --- 배너 이미지 --- */}} {{ $page := .Page }} {{ with $page.Params.banner
-  }} {{ $image_path := printf "%s" (.image | default "*") }} {{ $image := "" }}
-  {{ if strings.HasPrefix $image_path "media/" }} {{ $image = resources.Get
-  $image_path }} {{ else }} {{ $image = $page.Resources.GetMatch $image_path }}
-  {{ end }} {{ with $image }}
-  <div class="banner" style="margin-bottom: 2rem">
-    {{/* 👇 style 속성에서 object-fit: cover; 제거 👇 */}}
-    <img
-      src="{{ $image.RelPermalink }}"
-      alt="{{ $page.Title }} Banner"
-      style="width: 100%; max-height: 300px; border-radius: 10px"
-    />
-  </div>
-  {{ end }} {{ end }} {{/* --- 페이지 제목 --- */}}
+  {{ $page := .Page }}
+  {{ with $page.Params.banner }}
+    {{ $image_path := printf "%s" (.image | default "*") }}
+    {{ $image := "" }}
+    {{ if strings.HasPrefix $image_path "media/" }}
+      {{ $image = resources.Get $image_path }}
+    {{ else }}
+      {{ $image = $page.Resources.GetMatch $image_path }}
+    {{ end }}
+    {{ with $image }}
+      <div class="banner" style="margin-bottom: 2rem;">
+        {{/* style 속성에서 max-height 제거 */}}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $page.Title }} Banner" style="width: 100%; border-radius: 10px;">
+      </div>
+    {{ end }}
+  {{ end }}
+
   <h1 class="page-title text-center mb-3">{{ .Title }}</h1>
   {{ with .Content }}
-  <div class="content mb-3 text-center">{{ . }}</div>
-  {{ end }} {{/* --- 페이지 목록 --- */}}
+    <div class="content mb-3 text-center"> {{ . }} </div>
+  {{ end }}
+
   <div class="isotope-container">
-    {{ $currentPage := . }} {{ range where .Pages "Permalink" "!="
-    $currentPage.Permalink }} {{ partial "views/card" (dict "item" .) }} {{ end
-    }}
+    {{ $currentPage := . }}
+    {{ range where .Pages "Permalink" "!=" $currentPage.Permalink }}
+      {{ partial "views/card" (dict "item" .) }}
+    {{ end }}
   </div>
 </div>
-
 {{ end }}

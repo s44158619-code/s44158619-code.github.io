@@ -1,5 +1,6 @@
 ---
 superuser: true
+avatar: avatar.jpg
 author: admin
 title: "Seong YoonOh"
 role: "Student, Dept. of Computer and Artificial Intelligence"

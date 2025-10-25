@@ -3,7 +3,7 @@ title: "about"
 type: type
 date: 2025-10-10
 
-image:
+banner:
   caption: "Oh my brother."
   focal_point: "Center"
   preview_only: false

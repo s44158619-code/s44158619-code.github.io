@@ -3,7 +3,7 @@ title: "소개"
 type: type
 date: 2025-10-10
 
-image:
+banner:
   caption: "어 형이야."
   focal_point: "Center"
   preview_only: false

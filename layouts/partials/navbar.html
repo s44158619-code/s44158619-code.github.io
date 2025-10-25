@@ -1,6 +1,0 @@
-{{/* URL이 http로 시작하는지 확인하는 변수 추가 */}}
-{{ $is_external := strings.HasPrefix .URL "http" }}
-
-<a class="nav-link ... " href="{{ if $is_external }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if $is_external }}target="_blank" rel="noopener"{{ end }} {{ with .Params.target }}data-target="{{ . }}"{{ end }}>
-  <span>{{ .Name }}</span>
-</a>

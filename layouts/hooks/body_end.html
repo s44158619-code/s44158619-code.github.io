@@ -1,31 +1,27 @@
 {{/* layouts/partials/hooks/body_end.html */}}
 
-{{/* 사용자 정의 JavaScript 파일 로드 */}}
-{{ $customJS := site.Params.customJS }}
-{{ range $customJS }}
-  {{ $js := resources.Get . }}
-  {{ if $js }}
-    <script src="{{ $js.RelPermalink }}"></script>
-  {{ else }}
-    {{/* 파일을 못 찾으면 경고 출력 */}}
-    {{ warnf "Custom JS file not found: %s" . }}
-  {{ end }}
-{{ end }}
-
-{{/* 이력서 링크 수정 스크립트 직접 추가 (더 확실한 방법) */}}
+{{/* 이력서 링크 수정 스크립트 */}}
 <script>
-  window.onload = function() {
-    let resumeLink = document.querySelector('a[href="/ko/files/resume.pdf"]');
+  // 페이지 로드가 완료된 후 실행 (가장 안전)
+  window.addEventListener('load', function() {
+    // data-target 속성으로 링크를 먼저 찾아봅니다 (더 정확함)
+    let resumeLink = document.querySelector('a.dropdown-item[data-target="https://s44158619-code.github.io/files/resume.pdf"]');
+
+    // 만약 data-target으로 못 찾으면, 잘못된 href로 다시 찾아봅니다.
     if (!resumeLink) {
-      resumeLink = document.querySelector('a[data-target="https://s44158619-code.github.io/files/resume.pdf"]');
+      resumeLink = document.querySelector('a.dropdown-item[href="/ko/files/resume.pdf"]');
     }
+
+    // 링크를 찾았고, data-target 속성이 올바른 값인지 확인
     if (resumeLink && resumeLink.dataset.target === "https://s44158619-code.github.io/files/resume.pdf") {
+      // href 속성을 올바른 data-target 값으로 강제 변경
       resumeLink.href = resumeLink.dataset.target;
+      // 새 탭에서 열리도록 설정
       resumeLink.target = '_blank';
       resumeLink.rel = 'noopener noreferrer';
-      console.log("Resume link href fixed by body_end.html:", resumeLink.href);
+      console.log("body_end.html: 이력서 링크 href 수정 완료!", resumeLink.href); // 성공 로그
     } else {
-      console.error("body_end.html could not find the resume link.");
+      console.error("body_end.html: 이력서 링크를 찾지 못했거나 data-target 속성이 잘못되었습니다."); // 실패 로그
     }
-  };
+  });
 </script>

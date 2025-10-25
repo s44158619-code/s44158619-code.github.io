@@ -20,27 +20,20 @@
   {{ end }}
 
   {{/* --- 페이지 제목 --- */}}
-  {{/* Wowchemy 테마는 보통 page_header 파셜을 사용합니다. */}}
-  {{ partial "page_header.html" . }}
-
-  {{/* --- 페이지 내용 ( _index.md 본문 ) --- */}}
+  <h1 class="page-title text-center mb-3">{{ .Title }}</h1>
   {{ with .Content }}
-    <div class="content mb-3"> {{ . }} </div>
+    <div class="content mb-3 text-center"> {{ . }} </div>
   {{ end }}
 
-  {{/* --- 👇👇👇 이 부분이 빠졌었습니다! 👇👇👇 --- */}}
-  {{/* --- 페이지 목록 (테마 기본 카드 뷰 사용) --- */}}
-  <div class="isotope-container row"> {{/* <-- row 클래스 추가 */}}
-    {{ $paginator := .Paginate .Pages }} {{/* <-- 페이지네이션 추가 */}}
-    {{ range $paginator.Pages }}
-      <div class="col-md-4 isotope-item"> {{/* <-- 그리드 클래스 추가 */}}
-        {{ partial "views/card" (dict "item" .) }}
-      </div>
+  {{/* --- 페이지 목록 --- */}}
+  <div class="isotope-container">
+    {{/* 현재 _index 페이지 자체는 목록에서 제외 */}}
+    {{ $currentPage := . }}
+    {{ range where .Pages "Permalink" "!=" $currentPage.Permalink }} {{/* <--- 이 줄이 수정되었습니다 */}}
+      {{ partial "views/card" (dict "item" .) }}
     {{ end }}
   </div>
-  {{ partial "pagination" . }} {{/* <-- 페이지네이션 링크 추가 */}}
-  {{/* --- 👆👆👆 여기까지 👆👆👆 --- */}}
 
-</div> {{/* container 끝 */}}
+</div>
 
-{{ end }} {{/* define "main" 끝 */}}
+{{ end }}

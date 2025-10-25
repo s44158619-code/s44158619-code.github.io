@@ -1,0 +1,26 @@
+{{ $buttons := .Params.content.filter_button }}
+{{ if $buttons }}
+  <div class="portfolio-header" style="text-align:center; margin-bottom:1.5rem;">
+    <img id="portfolio-header-image" 
+         src="{{ (index $buttons 0).image | relURL }}" 
+         alt="Portfolio Header" 
+         style="width:100%; max-height:300px; object-fit:cover; border-radius:20px;">
+  </div>
+{{ end }}
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".filter-button-group .btn");
+  const headerImg = document.getElementById("portfolio-header-image");
+
+  buttons.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+      const imgSrc = "{{ (index .Params.content.filter_button 0).image | relURL }}"
+        .replace("0", index);
+      headerImg.src = imgSrc;
+    });
+  });
+});
+</script>
+
+

@@ -1,18 +1,46 @@
-{{/* --- 👇 배너 이미지 표시 코드 👇 --- */}}
-{{ $page := .Page }}
-{{ with $page.Params.banner }}
-  {{ $image_path := printf "%s" (.image | default "*") }}
-  {{ $image := "" }}
-  {{ if strings.HasPrefix $image_path "media/" }}
-    {{ $image = resources.Get $image_path }} {{/* static 폴더 이미지 */}}
-  {{ else }}
-    {{ $image = $page.Resources.GetMatch $image_path }} {{/* 페이지 번들 이미지 */}}
+{{ define "main" }}
+
+<div class="container pt-3">
+
+  {{/* --- 배너 이미지 --- */}}
+  {{ $page := .Page }}
+  {{ with $page.Params.banner }}
+    {{ $image_path := printf "%s" (.image | default "*") }}
+    {{ $image := "" }}
+    {{ if strings.HasPrefix $image_path "media/" }}
+      {{ $image = resources.Get $image_path }}
+    {{ else }}
+      {{ $image = $page.Resources.GetMatch $image_path }}
+    {{ end }}
+    {{ with $image }}
+      <div class="banner" style="margin-bottom: 2rem;">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $page.Title }} Banner" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
+      </div>
+    {{ end }}
   {{ end }}
 
-  {{ with $image }} {{/* <--- 이미지를 찾았을 때만 실행 */}}
-    <div class="banner" style="margin-bottom: 2rem;">
-      <img src="{{ $image.RelPermalink }}" alt="{{ $page.Title }} Banner" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
-    </div>
+  {{/* --- 페이지 제목 --- */}}
+  {{/* Wowchemy 테마는 보통 page_header 파셜을 사용합니다. */}}
+  {{ partial "page_header.html" . }}
+
+  {{/* --- 페이지 내용 ( _index.md 본문 ) --- */}}
+  {{ with .Content }}
+    <div class="content mb-3"> {{ . }} </div>
   {{ end }}
-{{ end }}
-{{/* --- 👆 배너 코드 끝 👆 --- */}}
+
+  {{/* --- 👇👇👇 이 부분이 빠졌었습니다! 👇👇👇 --- */}}
+  {{/* --- 페이지 목록 (테마 기본 카드 뷰 사용) --- */}}
+  <div class="isotope-container row"> {{/* <-- row 클래스 추가 */}}
+    {{ $paginator := .Paginate .Pages }} {{/* <-- 페이지네이션 추가 */}}
+    {{ range $paginator.Pages }}
+      <div class="col-md-4 isotope-item"> {{/* <-- 그리드 클래스 추가 */}}
+        {{ partial "views/card" (dict "item" .) }}
+      </div>
+    {{ end }}
+  </div>
+  {{ partial "pagination" . }} {{/* <-- 페이지네이션 링크 추가 */}}
+  {{/* --- 👆👆👆 여기까지 👆👆👆 --- */}}
+
+</div> {{/* container 끝 */}}
+
+{{ end }} {{/* define "main" 끝 */}}

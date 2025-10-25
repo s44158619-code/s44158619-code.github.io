@@ -386,3 +386,24 @@ p, li,
     font-size: 1rem;
   }
 }
+
+.page-banner,
+.article-banner {
+  background-color: #1a202c;
+}
+
+.page-banner img,
+.article-banner img {
+  object-fit: contain !important;
+  max-height: 400px;
+  background-color: #1a202c;
+}
+
+body:not(.dark) .page-banner,
+body:not(.dark) .article-banner {
+  background-color: #f9fafb;
+}
+body:not(.dark) .page-banner img,
+body:not(.dark) .article-banner img {
+   background-color: #f9fafb;
+}

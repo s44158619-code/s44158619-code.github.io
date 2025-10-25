@@ -139,3 +139,6 @@ social:
 
 customCSS:
   - css/custom.css
+
+customJS:
+  - js/custom.js

@@ -18,15 +18,15 @@ main:
     identifier: "resources"
   - parent: "projects"
     name: "기술적인 프로젝트"
-    url: "/tags/tech-projects/"
+    url: "/ko/tags/tech-projects/"
     weight: 31
   - parent: "projects"
     name: "생각과 기록"
-    url: "/tags/Writings/"
+    url: "/ko/tags/Writings/"
     weight: 32
   - parent: "projects"
     name: "리뷰"
-    url: "/tags/Reviews/"
+    url: "/ko/tags/Reviews/"
     weight: 33
   - parent: "resources"
     name: "이력서 다운로드"

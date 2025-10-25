@@ -1,0 +1,31 @@
+{{/* layouts/partials/hooks/body_end.html */}}
+
+{{/* 사용자 정의 JavaScript 파일 로드 */}}
+{{ $customJS := site.Params.customJS }}
+{{ range $customJS }}
+  {{ $js := resources.Get . }}
+  {{ if $js }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ else }}
+    {{/* 파일을 못 찾으면 경고 출력 */}}
+    {{ warnf "Custom JS file not found: %s" . }}
+  {{ end }}
+{{ end }}
+
+{{/* 이력서 링크 수정 스크립트 직접 추가 (더 확실한 방법) */}}
+<script>
+  window.onload = function() {
+    let resumeLink = document.querySelector('a[href="/ko/files/resume.pdf"]');
+    if (!resumeLink) {
+      resumeLink = document.querySelector('a[data-target="https://s44158619-code.github.io/files/resume.pdf"]');
+    }
+    if (resumeLink && resumeLink.dataset.target === "https://s44158619-code.github.io/files/resume.pdf") {
+      resumeLink.href = resumeLink.dataset.target;
+      resumeLink.target = '_blank';
+      resumeLink.rel = 'noopener noreferrer';
+      console.log("Resume link href fixed by body_end.html:", resumeLink.href);
+    } else {
+      console.error("body_end.html could not find the resume link.");
+    }
+  };
+</script>

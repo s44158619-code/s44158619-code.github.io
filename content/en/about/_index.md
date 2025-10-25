@@ -7,7 +7,7 @@ banner:
   caption: "Oh my brother."
   focal_point: "Center"
   preview_only: false
-  filename: "media/avatar.jpg"
+  image: "media/avatar.jpg"
 ---
 
 ## 👋 Hello, this is Seong Yoon-oh.!

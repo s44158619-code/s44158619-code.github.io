@@ -7,7 +7,7 @@ banner:
   caption: "어 형이야."
   focal_point: "Center"
   preview_only: false
-  filename: "media/avatar.jpg"
+  image: "media/avatar.jpg"
 ---
 
 ## 👋 안녕하세요, 성윤오입니다!

@@ -1,0 +1,18 @@
+{{/* --- 👇 배너 이미지 표시 코드 👇 --- */}}
+{{ $page := .Page }}
+{{ with $page.Params.banner }}
+  {{ $image_path := printf "%s" (.image | default "*") }}
+  {{ $image := "" }}
+  {{ if strings.HasPrefix $image_path "media/" }}
+    {{ $image = resources.Get $image_path }} {{/* static 폴더 이미지 */}}
+  {{ else }}
+    {{ $image = $page.Resources.GetMatch $image_path }} {{/* 페이지 번들 이미지 */}}
+  {{ end }}
+
+  {{ with $image }} {{/* <--- 이미지를 찾았을 때만 실행 */}}
+    <div class="banner" style="margin-bottom: 2rem;">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $page.Title }} Banner" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
+    </div>
+  {{ end }}
+{{ end }}
+{{/* --- 👆 배너 코드 끝 👆 --- */}}
